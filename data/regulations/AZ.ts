@@ -7,10 +7,10 @@ export const AZ: StateRegulation = {
   agencyAbbr: "ADEQ",
   npdesStatus: "delegated",
   constructionPermit: {
-    name: "Arizona Pollutant Discharge Elimination System (AZPDES) Construction General Permit (CGP) — Permit No. AZG2016-001 (reissued 2016, active)",
+    name: "Arizona Pollutant Discharge Elimination System (AZPDES) Construction General Permit (CGP) — Permit No. AZG2025-001 (effective 2025, expires August 28, 2030)",
     threshold: "≥ 1 acre of land disturbance, or < 1 acre if part of a larger common plan of development or sale",
-    noticePeriod: "NOI must be submitted and a permit authorization number received before land disturbance begins; ADEQ typically processes NOIs within 5 business days",
-    applicationMethod: "Online via ADEQ's AZPDES e-Permitting System (ePermitting portal at azdeq.gov); paper NOI forms also accepted",
+    noticePeriod: "NOI must be submitted and a permit authorization number received before land disturbance begins; ADEQ typically processes NOIs within 5 business days. Existing permittees under AZG2020-001 must submit a new NOI — coverage does not automatically transfer.",
+    applicationMethod: "Online via ADEQ's myDEQ portal (azdeq.gov); paper NOI forms also accepted",
     fee: "$500 for sites disturbing ≥ 1 acre and < 5 acres; $750 for ≥ 5 acres; fee is per project",
   },
   swppp: {
@@ -34,8 +34,8 @@ export const AZ: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://azdeq.gov/",
     permitApplicationUrl: "https://azdeq.gov/node/193",
-    regulationDocUrl: "https://azdeq.gov/sites/default/files/2022-07/AZG2016-001_CGP_Final.pdf",
+    regulationDocUrl: "https://azdeq.gov/node/193",
   },
-  lastVerified: "2025-01",
-  notes: "Arizona's arid climate means construction sites may go weeks without rain, but the intense monsoon season (July–September) demands fully operational BMPs. ADEQ uses the AZPDES permit numbering system (not NPDES). The CGP permit number AZG2016-001 has been in effect since 2016 and was administratively extended; ADEQ issued a draft renewal that was under review. Operators should verify whether a new permit has been issued. Projects on tribal lands may require coverage under EPA's federal CGP rather than the AZPDES permit.",
+  lastVerified: "2026-03",
+  notes: "Arizona's arid climate means construction sites may go weeks without rain, but the intense monsoon season (July–September) demands fully operational BMPs. ADEQ uses the AZPDES permit numbering system (not NPDES). AZG2025-001 replaced AZG2020-001 (which had replaced AZG2016-001); coverage under prior permits does not automatically transfer — a new NOI must be submitted via the myDEQ portal. The permit expires August 28, 2030. Projects on tribal lands may require coverage under EPA's federal CGP rather than the AZPDES permit.",
 };

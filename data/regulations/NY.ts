@@ -7,10 +7,10 @@ export const NY: StateRegulation = {
   agencyAbbr: "NYSDEC",
   npdesStatus: "delegated",
   constructionPermit: {
-    name: "SPDES General Permit for Stormwater Discharges from Construction Activity (GP-0-20-001)",
-    threshold: "≥ 1 acre of land disturbance (or < 1 acre if part of a larger common plan)",
-    noticePeriod: "NOI must be submitted at least 3 business days before construction begins",
-    applicationMethod: "Online via NYSDEC's eDEC system or paper submission",
+    name: "SPDES General Permit for Stormwater Discharges from Construction Activity (GP-0-25-001)",
+    threshold: "≥ 1 acre of land disturbance (or < 1 acre if part of a larger common plan). NYC East of Hudson watershed: ≥ 5,000 sq ft. City of New York municipal boundaries: ≥ 20,000 sq ft.",
+    noticePeriod: "Electronic NOI (eNOI) required; NYSDEC issues a Letter of Authorization (LOA) specifying the authorized construction start date",
+    applicationMethod: "Online via NYSDEC's eDEC system — electronic eNOI submission now mandatory (paper no longer accepted)",
     fee: "$2,250 flat fee for most projects (one of the higher fees nationally)",
   },
   swppp: {
@@ -36,6 +36,6 @@ export const NY: StateRegulation = {
     permitApplicationUrl: "https://extapps.dec.ny.gov/cfmx/extapps/edmr/fac_detail.cfm",
     regulationDocUrl: "https://dec.ny.gov/permits/50285.html",
   },
-  lastVerified: "2025-01",
-  notes: "New York's SPDES permit is state-specific (not NPDES) but federally equivalent. The $2,250 flat fee is among the highest in the country. NYC and surrounding counties may have additional local stormwater requirements.",
+  lastVerified: "2026-03",
+  notes: "New York's SPDES permit is state-specific (not NPDES) but federally equivalent. GP-0-25-001 took effect January 29, 2025, replacing GP-0-20-001. Key changes under the new permit: electronic eNOI submission via eDEC is now mandatory (paper no longer accepted); NYSDEC issues a Letter of Authorization (LOA) specifying the authorized construction start date; lower disturbance thresholds apply within the NYC East of Hudson watershed (≥ 5,000 sq ft) and within NYC municipal boundaries (≥ 20,000 sq ft). The $2,250 flat fee is among the highest in the country. NYC and surrounding counties may have additional local stormwater requirements. Operators who had coverage under GP-0-20-001 must obtain new authorization under GP-0-25-001 — coverage does not automatically transfer.",
 };
