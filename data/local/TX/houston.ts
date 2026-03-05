@@ -16,10 +16,10 @@ export const houston: LocalRegulation = {
   },
   waterQuality: {
     imperviousCoverLimit: "No citywide impervious cover cap (Houston has no traditional zoning); however, detention required for any net increase in runoff",
-    onSiteTreatmentRequired: false,
+    onSiteTreatmentRequired: true,
     detentionRequired: true,
-    detentionStandard: "Detention required for net increase in impervious cover; must attenuate 100-year storm to pre-development rates per Harris County Criteria (post-Harvey requirements significantly strengthened in 2018–2020); many projects must also meet 500-year storm attenuation in designated areas",
-    turbidityStandard: "No local numeric NTU limit; TCEQ TXR150000 narrative standard applies; drainage permit requires construction BMPs per City of Houston Infrastructure Design Manual",
+    detentionStandard: "Detention required for net increase in impervious cover; flat rate of ~0.80 ac-ft/ac for sites < 20 acres (2025 IDM); larger projects follow Harris County Flood Control criteria starting at 0.65 ac-ft/ac. Post-Harvey requirements (2018–2020+) significantly strengthened; many areas require 500-year storm attenuation.",
+    turbidityStandard: "No local numeric NTU limit; TCEQ TXR150000 narrative standard applies. IDM Chapter 13 requires a Stormwater Quality Management Plan (SWQMP) identifying site pollutants with on-site BMPs designed to remove them (10-minute residence time, max 48-hour ponding, ≥ 3 inches freeboard). Bioretention/LID facilities allowed where soils permit; underdrains required in clay-heavy soils.",
   },
   swppp: {
     localPlanRequired: true,
@@ -58,6 +58,6 @@ export const houston: LocalRegulation = {
     permitUrl: "https://www.houstonpermittingcenter.org/",
     designManualUrl: "https://www.hcfcd.org/Resources/Design-Criteria",
   },
-  lastVerified: "2025-01",
-  notes: "Houston is unique in Texas (and nationally) for having no traditional zoning, which creates a complex stormwater landscape. Detention requirements are the primary tool for managing runoff. Post-Hurricane Harvey (2017), Harris County significantly strengthened detention requirements and adopted more conservative design standards. Projects near HCFCD-maintained bayous require a separate HCFCD permit in addition to City permits. The dual-agency review (City + HCFCD) adds complexity and time to the permitting process.",
+  lastVerified: "2026-03",
+  notes: "Houston is unique in Texas (and nationally) for having no traditional zoning, which creates a complex stormwater landscape. Two parallel requirements apply: (1) Detention — the primary flood control tool, significantly strengthened post-Harvey with flat rates of ~0.80 ac-ft/ac for sites < 20 acres under the 2025 IDM supplement (effective May 16, 2025); and (2) Water Quality Treatment — IDM Chapter 13 requires a Stormwater Quality Management Plan (SWQMP) with on-site BMPs sized to meet residence time and ponding standards. A 2026 IDM edition is effective March 2, 2026 (mandatory for submittals after June 1, 2026). Projects near HCFCD-maintained bayous require a separate HCFCD permit. The dual-agency review (City + HCFCD) adds complexity and time.",
 };
