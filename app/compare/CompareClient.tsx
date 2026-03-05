@@ -44,8 +44,31 @@ export function CompareClient() {
     setSelectedCodes(codes);
   }
 
+  const [copied, setCopied] = useState(false);
+
   function copyLink() {
-    navigator.clipboard.writeText(window.location.href);
+    const url = window.location.href;
+    if (navigator.clipboard?.writeText) {
+      navigator.clipboard.writeText(url).then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      }).catch(() => fallbackCopy(url));
+    } else {
+      fallbackCopy(url);
+    }
+  }
+
+  function fallbackCopy(url: string) {
+    const el = document.createElement("textarea");
+    el.value = url;
+    el.style.position = "fixed";
+    el.style.opacity = "0";
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   }
 
   return (
@@ -68,9 +91,13 @@ export function CompareClient() {
         <div className="mb-6 flex flex-wrap items-center gap-3">
           <button
             onClick={copyLink}
-            className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-600 hover:bg-slate-50 transition-colors"
+            className={`rounded-lg border px-3 py-2 text-sm transition-colors ${
+              copied
+                ? "border-green-200 bg-green-50 text-green-700"
+                : "border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
+            }`}
           >
-            Copy shareable link
+            {copied ? "✓ Link copied!" : "Copy shareable link"}
           </button>
           <button
             onClick={() => setSelectedCodes([])}

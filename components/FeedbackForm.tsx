@@ -226,9 +226,10 @@ export function FeedbackForm({ defaultState, defaultJurisdiction, defaultType }:
           id="section"
           name="section"
           required
+          defaultValue=""
           className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
         >
-          <option value="" disabled selected>
+          <option value="" disabled>
             Select a section
           </option>
           {sections.map((s) => (
