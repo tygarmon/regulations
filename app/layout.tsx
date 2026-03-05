@@ -6,6 +6,7 @@ import "./globals.css";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://regs.stormwaterworld.com"),
   title: "Stormwater Regulation Directory",
   description:
     "Cross-reference stormwater construction permit regulations across all 50 U.S. states. Built for contractors, engineers, and project managers working in multiple states.",
