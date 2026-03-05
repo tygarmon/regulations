@@ -69,6 +69,12 @@ export default async function StateDetailPage({
           >
             Compare with other states →
           </Link>
+          <Link
+            href={`/feedback?state=${data.stateCode}&type=state`}
+            className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-500 hover:bg-slate-50 hover:text-slate-700 transition-colors"
+          >
+            Suggest a correction
+          </Link>
         </div>
       </div>
 

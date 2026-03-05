@@ -85,6 +85,12 @@ export default async function LocalDetailPage({
           >
             Compare with state →
           </Link>
+          <Link
+            href={`/feedback?state=${local.stateCode}&jurisdiction=${encodeURIComponent(local.localName)}&type=local`}
+            className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-500 hover:bg-slate-50 hover:text-slate-700 transition-colors"
+          >
+            Suggest a correction
+          </Link>
         </div>
       </div>
 
