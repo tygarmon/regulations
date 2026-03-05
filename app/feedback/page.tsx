@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { FeedbackForm } from "@/components/FeedbackForm";
 import type { Metadata } from "next";
+import { FeedbackFormWrapper } from "@/components/FeedbackFormWrapper";
 
 export const metadata: Metadata = {
   title: "Suggest a Correction | Stormwater Directory",
@@ -45,7 +45,7 @@ export default async function FeedbackPage({
 
       {/* Form */}
       <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <FeedbackForm
+        <FeedbackFormWrapper
           defaultState={state}
           defaultJurisdiction={jurisdiction}
           defaultType={type}

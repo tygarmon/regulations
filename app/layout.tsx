@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import { BannerAd } from "@/components/BannerAd";
+import { TOP_ADS, BOTTOM_ADS } from "@/data/ads";
 
 const geist = Geist({ subsets: ["latin"] });
 
@@ -53,11 +55,16 @@ export default function RootLayout({
           </div>
         </header>
 
-        {/* Main content */}
-        <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6">{children}</main>
+        {/* Top banner ad */}
+        <BannerAd ads={TOP_ADS} position="top" />
+
+        {/* Main content — extra bottom padding when sticky bar is active */}
+        <main className={`mx-auto max-w-7xl px-4 py-8 sm:px-6 ${BOTTOM_ADS.length > 0 ? "pb-28" : ""}`}>
+          {children}
+        </main>
 
         {/* Footer */}
-        <footer className="mt-16 border-t border-slate-200 bg-white">
+        <footer className={`mt-16 border-t border-slate-200 bg-white ${BOTTOM_ADS.length > 0 ? "mb-28" : ""}`}>
           <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
             <div className="flex flex-col gap-2 text-sm text-slate-500 sm:flex-row sm:justify-between">
               <p>
@@ -69,6 +76,9 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+
+        {/* Bottom sticky banner ad */}
+        <BannerAd ads={BOTTOM_ADS} position="bottom" />
       </body>
     </html>
   );

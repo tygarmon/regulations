@@ -40,6 +40,8 @@ export function FeedbackForm({ defaultState, defaultJurisdiction, defaultType }:
   const [type, setType] = useState<"state" | "local">(
     defaultType === "local" ? "local" : "state"
   );
+  const [stateValue, setStateValue] = useState(defaultState?.toUpperCase() ?? "");
+  const [sectionValue, setSectionValue] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -185,7 +187,8 @@ export function FeedbackForm({ defaultState, defaultJurisdiction, defaultType }:
             id="state"
             name="state"
             required
-            defaultValue={defaultState?.toUpperCase() ?? ""}
+            value={stateValue}
+            onChange={(e) => setStateValue(e.target.value)}
             className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
           >
             <option value="" disabled>
@@ -226,7 +229,8 @@ export function FeedbackForm({ defaultState, defaultJurisdiction, defaultType }:
           id="section"
           name="section"
           required
-          defaultValue=""
+          value={sectionValue}
+          onChange={(e) => setSectionValue(e.target.value)}
           className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
         >
           <option value="" disabled>
