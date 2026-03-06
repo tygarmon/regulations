@@ -71,6 +71,28 @@ export function StateDetailPanel({ state }: Props) {
         <Field label="NOI Lead Time" value={state.constructionPermit.noticePeriod} />
         <Field label="Application Method" value={state.constructionPermit.applicationMethod} />
         <Field label="Fee" value={state.constructionPermit.fee} />
+        {state.permitExpires && (
+          <div className="grid grid-cols-[160px_1fr] gap-2">
+            <dt className="text-sm font-medium text-slate-500">Permit Expires</dt>
+            <dd className={`text-sm font-medium ${
+              new Date(state.permitExpires) < new Date(Date.now() + 90 * 86400000)
+                ? "text-amber-600"
+                : "text-slate-800"
+            }`}>
+              {new Date(state.permitExpires).toLocaleDateString("en-US", {
+                month: "long",
+                day: "numeric",
+                year: "numeric",
+                timeZone: "UTC",
+              })}
+              {new Date(state.permitExpires) < new Date(Date.now() + 90 * 86400000) && (
+                <span className="ml-2 inline-flex items-center rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                  Reissuance imminent
+                </span>
+              )}
+            </dd>
+          </div>
+        )}
         <div className="pt-1">
           <a
             href={state.officialLinks.permitApplicationUrl}
