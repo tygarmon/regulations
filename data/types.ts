@@ -22,6 +22,8 @@ export type StateRegulation = {
   inspections: {
     frequency: string; // e.g. "Every 14 days and within 24 hours of ≥0.5\" rainfall"
     qualificationRequired: string; // e.g. "Trained Stormwater Inspector"
+    rainTrigger: string; // e.g. "Within 24 hours of any storm event ≥ 0.5 inches"
+    acceptedCertifications: string; // e.g. "CESSWI, CPESC (no state-specific cert required)"
   };
   postConstruction: {
     required: boolean;
@@ -59,7 +61,9 @@ export const COMPARISON_FIELDS: ComparisonField[] = [
   { key: "peCertRequired", label: "PE Certification Required", getValue: (s) => s.swppp.peCertRequired ? "Yes" : "No" },
   { key: "swpppTemplate", label: "SWPPP Template Available", getValue: (s) => s.swppp.templateAvailable ? "Yes" : "No" },
   { key: "inspectionFrequency", label: "Inspection Frequency", getValue: (s) => s.inspections.frequency },
+  { key: "rainTrigger", label: "Rain Inspection Trigger", getValue: (s) => s.inspections.rainTrigger },
   { key: "inspectorQualification", label: "Inspector Qualification", getValue: (s) => s.inspections.qualificationRequired },
+  { key: "acceptedCertifications", label: "Inspector Certifications", getValue: (s) => s.inspections.acceptedCertifications },
   { key: "postConstruction", label: "Post-Construction Required", getValue: (s) => s.postConstruction.required ? "Yes" : "No" },
   { key: "turbidityLimit", label: "Turbidity Standard", getValue: (s) => s.dischargeStandards.turbidityLimit },
 ];

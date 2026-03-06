@@ -22,6 +22,8 @@ export const VT: StateRegulation = {
   inspections: {
     frequency: "At least once every 7 calendar days during active construction and within 24 hours after any storm event producing ≥ 0.5 inches of precipitation in a 24-hour period; during winter months or periods of frozen ground, inspection frequency may be modified per DEC guidance; when the site is temporarily stabilized, inspections may be reduced to monthly",
     qualificationRequired: "Vermont requires inspections to be performed by or under the supervision of a Vermont-licensed Site Technician (LST) or Professional Engineer (PE); the Licensed Site Technician certification is a Vermont-specific credential administered through the Vermont DEC; this is one of the most stringent inspector qualification requirements of any state construction stormwater program",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of precipitation in a 24-hour period",
+    acceptedCertifications: "Licensed Site Technician (LST) REQUIRED — Vermont-specific credential administered by VT DEC; licensed PE also qualifies; one of the most stringent inspector requirements nationally",
   },
   postConstruction: {
     required: true,

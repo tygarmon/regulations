@@ -22,6 +22,8 @@ export const MO: StateRegulation = {
   inspections: {
     frequency: "At least every 14 days and within 24 hours after any measurable precipitation event (defined as ≥ 0.5 inches of rainfall in a 24-hour period). Inspections must also be conducted after any snowmelt that causes a discharge.",
     qualificationRequired: "Missouri requires that at least one Certified Erosion, Sediment and Stormwater Inspector (CESSI) be identified for each project. CESSI certification is obtained through MDNR-approved training programs (e.g., CPESC, CESSWI, or equivalent). This is a state-mandated certification requirement, making Missouri one of the more stringent states for inspector qualifications.",
+    rainTrigger: "Within 24 hours of any measurable precipitation event producing ≥ 0.5 inches of rainfall in a 24-hour period; also required after snowmelt causing a discharge",
+    acceptedCertifications: "CESSI (Certified Erosion, Sediment and Stormwater Inspector) designation REQUIRED by Missouri DNR; CPESC, CESSWI accepted as equivalents through MDNR-approved training programs",
   },
   postConstruction: {
     required: true,

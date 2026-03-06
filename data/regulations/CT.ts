@@ -22,6 +22,8 @@ export const CT: StateRegulation = {
   inspections: {
     frequency: "At least every 7 calendar days and within 24 hours of any storm event that produces 0.5 inches or more of rainfall; sites that have achieved final stabilization may reduce inspection frequency",
     qualificationRequired: "Inspections must be conducted by a Certified Soil Erosion and Sediment Control (SESC) Inspector or a qualified professional with equivalent training. Connecticut's SESC Inspector certification is administered by the Connecticut DEEP and the University of Connecticut Extension. This certification is a notable state-specific requirement not common in other states.",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "Certified Soil Erosion and Sediment Control (SESC) Inspector (CT-specific credential) required or qualified professional with equivalent training; DEEP-recognized",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const NH: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours of a precipitation event of ≥ 0.5 inches. Inspections must be documented on inspection report forms. Frequency may be reduced to every 14 days during periods of drought or frozen, stable ground cover.",
     qualificationRequired: "No state-specific certification is required by the general permit, but inspectors must be knowledgeable in the principles and practice of erosion and sediment controls. NHDES recommends familiarity with the NH Stormwater Management Handbook. Certified Professional in Erosion and Sediment Control (CPESC) or similar credentials are recognized but not mandated.",
+    rainTrigger: "Within 24 hours of a precipitation event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified person' knowledgeable in E&SC; CPESC, CESSWI, CISEC accepted; NHDES recommends NH Stormwater Management Handbook familiarity",
   },
   postConstruction: {
     required: true,

@@ -106,7 +106,9 @@ export function StateDetailPanel({ state }: Props) {
         sourceLabel="Permit Document"
       >
         <Field label="Frequency" value={state.inspections.frequency} />
+        <Field label="Rain Trigger" value={state.inspections.rainTrigger} />
         <Field label="Inspector Qualification" value={state.inspections.qualificationRequired} />
+        <Field label="Accepted Certifications" value={state.inspections.acceptedCertifications} />
       </Section>
 
       {/* Discharge Standards */}

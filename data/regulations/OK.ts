@@ -22,6 +22,8 @@ export const OK: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours of a precipitation event that causes a discharge from the site. Frequency may be reduced to every 14 days for sites where all disturbed areas have been temporarily or finally stabilized, or where runoff is unlikely due to winter conditions.",
     qualificationRequired: "No formal state certification is required by OKR10; inspections must be conducted by a 'qualified person' with knowledge of BMPs and the SWPPP. Oklahoma does not mandate a specific inspector certification credential under the general permit, though training through organizations such as CPESC or CESSWI is common practice.",
+    rainTrigger: "Within 24 hours of any precipitation event that causes a discharge from the site (discharge-based trigger)",
+    acceptedCertifications: "No state-specific mandatory cert; inspector must be a 'qualified person' with knowledge of BMPs and SWPPP; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: true,

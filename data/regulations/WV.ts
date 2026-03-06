@@ -22,6 +22,8 @@ export const WV: StateRegulation = {
   inspections: {
     frequency: "At least once every 7 calendar days and within 24 hours of any rainfall event that results in runoff from the construction site; inspection records must be retained for 3 years",
     qualificationRequired: "Inspections must be conducted by a Qualified Inspector — defined in WVG310000 as an individual who has completed a WVDEP-approved erosion and sediment control or stormwater training course. West Virginia does not have a separate state certification program equivalent to some other states, but WVDEP-approved training (such as the WV Land Development Stormwater Training Program) is required.",
+    rainTrigger: "Within 24 hours of any rainfall event that results in runoff from the construction site (discharge-based trigger)",
+    acceptedCertifications: "WVDEP-approved training REQUIRED (e.g., WV Land Development Stormwater Training Program); no separate state certification credential equivalent, but training completion is mandatory",
   },
   postConstruction: {
     required: true,

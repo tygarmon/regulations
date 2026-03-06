@@ -22,6 +22,8 @@ export const OR: StateRegulation = {
   inspections: {
     frequency: "Every 7 days during the wet season (October 1 through April 30) and within 48 hours of a storm event producing ≥ 0.5 inches of rainfall; every 14 days during the dry season (May 1 through September 30) and within 48 hours of a qualifying storm event. Inspection frequency may be reduced for stabilized areas.",
     qualificationRequired: "No mandatory state certification under 1200-C; inspections must be conducted by a 'qualified person' knowledgeable in BMPs and the ESCP. However, for projects ≥ 5 acres, the responsible party for ESCP preparation must be a licensed PE, licensed landscape architect, or Certified Professional in Erosion and Sediment Control (CPESC). Inspector training and familiarity with the permit requirements are expected.",
+    rainTrigger: "Within 48 hours of a storm event producing ≥ 0.5 inches of precipitation, OR any storm event that causes a discharge from the site; wet-season (Oct–Apr) inspections required every 7 days",
+    acceptedCertifications: "CESCL (Certified Erosion and Sediment Control Lead) or Oregon-specific CESCL REQUIRED; meets 1200-C Erosion and Sediment Control Inspector (ESCI) requirement; WA CESCL (BMP C160) also accepted",
   },
   postConstruction: {
     required: true,

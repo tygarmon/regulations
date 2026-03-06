@@ -22,6 +22,8 @@ export const AZ: StateRegulation = {
   inspections: {
     frequency: "At least every 14 calendar days and within 24 hours of a storm event that produces 0.5 inches or more of rainfall at the site; in arid regions, inspection frequency may be adjusted if site conditions warrant",
     qualificationRequired: "Inspections must be performed by a trained individual with knowledge of construction stormwater requirements. Arizona does not require a state-specific certification for inspectors. The permittee or a designated representative familiar with the SWPPP may conduct inspections.",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "No state-specific cert required; inspector must be trained and knowledgeable; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: true,

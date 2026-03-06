@@ -22,6 +22,8 @@ export const WA: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period. Turbidity monitoring required at the discharge point. Under the 2026 CSGP, sites ≤ 1 acre must also conduct weekly turbidity/transparency and pH sampling at the discharge point.",
     qualificationRequired: "Certified Erosion and Sediment Control Lead (CESCL) required for ALL site inspections under the 2026 CSGP — including sites ≤ 1 acre (previously non-certified personnel could inspect smaller sites). CESCL certification through Ecology-approved training; renewal required every 3 years.",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of rainfall in a 24-hour period; turbidity monitoring required at all discharge points after each event",
+    acceptedCertifications: "Certified Erosion and Sediment Control Lead (CESCL) REQUIRED for ALL sites including ≤ 1 acre under the 2026 CSGP; Ecology-approved training provider required; renewal every 3 years",
   },
   postConstruction: {
     required: true,

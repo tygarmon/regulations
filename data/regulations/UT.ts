@@ -22,6 +22,8 @@ export const UT: StateRegulation = {
   inspections: {
     frequency: "At least once every 14 calendar days during active construction and within 24 hours (or by the end of the next business day) after any storm event producing measurable precipitation (≥ 0.25 inches in some references; verify with current UTR300000 permit text); during periods of inactivity or after site stabilization, monthly inspections are typically required until the NOT is filed",
     qualificationRequired: "No specific state-issued certification is required under UTR300000; inspections must be conducted by a 'qualified person' with knowledge of stormwater BMPs and permit requirements; UDEQ recommends training through programs such as CPESC (Certified Professional in Erosion and Sediment Control) or state-sponsored stormwater training, but these are not mandated by the general permit",
+    rainTrigger: "Within 24 hours (or by end of next business day) of any storm event producing measurable precipitation; current UTR300000 permit text should be verified for exact threshold",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified person'; CPESC, CESSWI accepted; UDEQ-sponsored stormwater training recommended",
   },
   postConstruction: {
     required: true,

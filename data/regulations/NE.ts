@@ -22,6 +22,8 @@ export const NE: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours after a rainfall event of ≥ 0.25 inches in a 24-hour period. This 7-day inspection interval is more frequent than many states and reflects Nebraska's compliance focus. Inspections may be reduced to every 14 days if the site has reached final stabilization in some areas.",
     qualificationRequired: "No state-mandated inspector certification; inspections must be performed by qualified personnel with sufficient knowledge of stormwater pollution prevention principles, erosion and sediment control BMPs, and the site-specific SWPPP. NDEE does not operate a formal inspector certification program, but recommends industry certifications (CPESC, CESSWI) for personnel conducting inspections.",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.25 inches of rainfall in a 24-hour period (lower threshold than most states)",
+    acceptedCertifications: "Certified inspector REQUIRED; CESSWI is the primary accepted credential; CPESC, CISEC also accepted; NDEE enforces the requirement for a documented certified inspector",
   },
   postConstruction: {
     required: true,

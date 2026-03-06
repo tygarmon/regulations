@@ -22,6 +22,8 @@ export const ME: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours after any storm event producing ≥ 0.5 inches of rainfall in a 24-hour period; inspection frequency may be reduced to every 14 days for stabilized areas",
     qualificationRequired: "Inspections must be conducted by a person knowledgeable in the principles and practice of erosion and sediment control; Maine DEP strongly recommends Certified Erosion and Sediment Control Lead (CESCL) — a nationally recognized credential — but it is not mandated by the permit",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "State-approved CESCL (Certified Erosion and Sediment Control Lead), CESSWI, or CPESC REQUIRED for site inspectors; Maine DEP enforces this requirement",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const MS: StateRegulation = {
   inspections: {
     frequency: "At least every 14 days and within 24 hours after any rainfall event of ≥ 0.5 inches during a 24-hour period",
     qualificationRequired: "No state-mandated certification; inspections must be conducted by a qualified personnel who is knowledgeable about the permit and SWPPP requirements. MDEQ recommends familiarity with BMP installation and maintenance.",
+    rainTrigger: "Within 24 hours of a rainfall event producing ≥ 0.5 inches in a 24-hour period",
+    acceptedCertifications: "No state-specific mandatory cert; inspector must be 'qualified personnel' knowledgeable in permit and SWPPP requirements; CESSWI, CPESC, CISEC accepted",
   },
   postConstruction: {
     required: true,

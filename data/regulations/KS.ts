@@ -22,6 +22,8 @@ export const KS: StateRegulation = {
   inspections: {
     frequency: "At least every 14 days and within 24 hours after any storm event resulting in a discharge; sites in high-quality water areas or near impaired waters may require more frequent inspections",
     qualificationRequired: "Inspector must be a qualified person designated by the operator who is knowledgeable in the principles and practice of stormwater pollution prevention; Kansas does not require a state-specific inspector certification for construction stormwater, but CPESC or CESSWI credentials are recognized",
+    rainTrigger: "Within 24 hours of any storm event that results in a discharge from the site (discharge-based trigger; no fixed inch threshold in permit)",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified person' knowledgeable in stormwater pollution prevention; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: true,

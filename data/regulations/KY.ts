@@ -22,6 +22,8 @@ export const KY: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours after a storm event that results in a discharge from the site; inspection frequency may be reduced to every 14 days for sites that are temporarily stabilized (e.g., during winter shutdown) when no construction is occurring",
     qualificationRequired: "Inspections must be performed by a qualified person designated by the permittee who is knowledgeable in the principles and practice of stormwater pollution prevention; Kentucky does not require a state-issued inspector certification, but the Division of Water recognizes CISEC, CPESC, and CESSWI credentials",
+    rainTrigger: "Within 24 hours of any storm event that results in a discharge from the site (discharge-based trigger)",
+    acceptedCertifications: "KY EPSC certification (required for Kentucky Transportation Cabinet projects); CPESC, CESSWI, licensed PE accepted for private construction; state EPSC training is the primary pathway",
   },
   postConstruction: {
     required: true,

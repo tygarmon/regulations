@@ -22,6 +22,8 @@ export const OH: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours of a precipitation event that results in a discharge from the site. Inspections may be reduced to every 14 days and within 24 hours of a precipitation event if the site meets stabilization criteria for disturbed areas.",
     qualificationRequired: "Inspector must be a 'qualified inspector' who has completed Ohio EPA-approved training (e.g., Ohio's Water & Soil Resources Commission CPESC or equivalent). No formal state certification credential is mandated by the general permit, but training documentation must be maintained. Many operators use Certified Professional in Erosion and Sediment Control (CPESC) holders.",
+    rainTrigger: "Within 24 hours of any precipitation event that results in a discharge from the site (discharge-based trigger; no fixed inch threshold)",
+    acceptedCertifications: "Ohio EPA Qualified Inspection Personnel (QIP) certification REQUIRED or equivalent; CPESC, CESSWI, licensed PE/PS accepted; OEPA-approved training is the primary pathway",
   },
   postConstruction: {
     required: true,

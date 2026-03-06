@@ -22,6 +22,8 @@ export const WI: StateRegulation = {
   inspections: {
     frequency: "At least once every 7 calendar days and within 24 hours of a rain event of 0.5 inches or greater within a 24-hour period; if site is undergoing final stabilization, reduced frequency of once per month is allowed; inspection records must be retained for 3 years after permit termination",
     qualificationRequired: "Inspections must be conducted by a Qualified Stormwater Management Inspector (QSMI) — Wisconsin requires completion of a WDNR-approved training program. The WDNR partners with organizations such as the University of Wisconsin-Extension for QSMI training. Certification must be maintained through periodic re-training. The QSMI must sign off on all inspection reports.",
+    rainTrigger: "Within 24 hours of a rain event producing ≥ 0.5 inches in a 24-hour period",
+    acceptedCertifications: "Qualified Stormwater Management Inspector (QSMI) — WDNR-approved training REQUIRED; UW-Extension and other WDNR-approved providers; periodic re-training required; QSMI must sign all inspection reports",
   },
   postConstruction: {
     required: true,

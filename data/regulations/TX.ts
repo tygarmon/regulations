@@ -22,6 +22,8 @@ export const TX: StateRegulation = {
   inspections: {
     frequency: "Every 14 days and within 24 hours of a rainfall event producing ≥ 0.5 inches",
     qualificationRequired: "Stormwater Pollution Prevention Plan (SWPPP) Inspector — no state license required but must be knowledgeable",
+    rainTrigger: "Within 24 hours of a rainfall event producing ≥ 0.5 inches",
+    acceptedCertifications: "No state-specific cert required; inspector must be 'knowledgeable' in permit requirements and BMP implementation; CPESC, CESSWI accepted but not mandated by TCEQ",
   },
   postConstruction: {
     required: true,

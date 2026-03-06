@@ -22,6 +22,8 @@ export const GA: StateRegulation = {
   inspections: {
     frequency: "At least every 7 calendar days during active land disturbance and within 24 hours after a rainfall event of ≥ 0.5 inches; certified personnel must conduct inspections",
     qualificationRequired: "Inspector must hold a Georgia Soil and Water Conservation Commission (GSWCC) Inspector certification (Level IA, IB, or II); on-site inspection reports must be completed by or under the supervision of a certified inspector",
+    rainTrigger: "Within 24 hours of a rainfall event producing ≥ 0.5 inches",
+    acceptedCertifications: "GSWCC Level 1B CIESC (Certified Inspector of Erosion and Sediment Control) REQUIRED for all SWPPP inspections; CPESC satisfies the Level 2 requirement; Level 1A required for all construction personnel",
   },
   postConstruction: {
     required: true,

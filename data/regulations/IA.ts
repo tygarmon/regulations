@@ -22,6 +22,8 @@ export const IA: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours after any storm event producing ≥ 0.5 inches of rainfall in a 24-hour period; inspection frequency may be reduced to every 14 days during periods of frozen ground and no construction activity",
     qualificationRequired: "Inspector must be a qualified person who is knowledgeable in the principles and practice of erosion and sediment controls and familiar with the SWPPP; Iowa does not require a specific state-issued inspector certification for construction stormwater",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "No state-specific cert required; CPESC, CISEC accepted; inspector must be 'knowledgeable in the principles and practice of erosion and sediment control'",
   },
   postConstruction: {
     required: true,

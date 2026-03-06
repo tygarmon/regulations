@@ -22,6 +22,8 @@ export const SC: StateRegulation = {
   inspections: {
     frequency: "At least once every 7 calendar days during active land-disturbing activity, and within 24 hours after any storm event that produces ≥ 0.5 inches of rainfall in a 24-hour period; reduced inspection frequency (every 14 days) may be allowed for stabilized or inactive portions of the site",
     qualificationRequired: "No specific state certification is required by SCR100000; however, inspections must be conducted by a 'qualified person' who has been trained in stormwater management principles. SCDES recommends training through programs such as CPESC (Certified Professional in Erosion and Sediment Control) or state-recognized courses, but does not mandate a specific credential",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "CPESC, CESSWI, CISEC, or SC Land Disturbance Certificate accepted; state credential is an accepted alternative to national certs; licensed PE/RLS also qualifies",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const DE: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days during active construction and within 24 hours after a storm event producing ≥ 0.5 inches of rainfall",
     qualificationRequired: "Inspector must be knowledgeable about the SWPPP and BMPs; Delaware does not have a state-specific inspector certification, but CPESC (Certified Professional in Erosion and Sediment Control) or equivalent is recommended",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "No state-specific mandatory cert; CPESC, CESSWI accepted; inspector must be knowledgeable in E&SC and SWPPP",
   },
   postConstruction: {
     required: true,

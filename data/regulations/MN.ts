@@ -22,6 +22,8 @@ export const MN: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours after any rain event that produces ≥ 0.5 inches of rainfall in 24 hours; for sites during frozen conditions (November 1–March 31) when land disturbance is suspended and site is in compliance, inspections may be reduced to once per month; inspection records must be retained for 3 years after permit termination",
     qualificationRequired: "Minnesota requires that at least one person associated with the project has completed MPCA's Construction Stormwater Trained Inspector designation — operators must document that their designated inspector has completed either: (1) MPCA's online Construction Stormwater Inspector training, or (2) a Minnesota-approved equivalent course such as CISEC or CPESC; this trained inspector requirement is codified in the permit language and is one of the more formal state-specific inspector credential requirements in the region",
+    rainTrigger: "Within 24 hours of any rain event producing ≥ 0.5 inches of rainfall in 24 hours (≥ 0.25 inches at high-priority sites near impaired waters)",
+    acceptedCertifications: "MPCA-approved Construction Stormwater Inspector training REQUIRED; CESSWI, CPESC, CISEC accepted as qualifying credentials; training must be documented in permit file",
   },
   postConstruction: {
     required: true,

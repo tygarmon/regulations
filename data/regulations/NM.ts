@@ -22,6 +22,8 @@ export const NM: StateRegulation = {
   inspections: {
     frequency: "At least every 14 days and within 24 hours of a precipitation event producing ≥ 0.5 inches of rainfall. In arid areas of NM where rainfall is infrequent, inspections must still occur every 14 days during the active construction period. Inspection reports must be retained as part of the SWPPP record.",
     qualificationRequired: "No state-specific certification is required by the general permit. Inspectors must be knowledgeable individuals familiar with the SWPPP and BMP requirements. NMED does not currently mandate a specific credential such as CPESC or a state-issued inspector license. The operator or their designee may conduct inspections.",
+    rainTrigger: "Within 24 hours of a precipitation event producing ≥ 0.5 inches of rainfall; in arid areas, the 14-day routine inspection applies even when rainfall is infrequent",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified person' familiar with SWPPP; CPESC, CESSWI accepted",
   },
   postConstruction: {
     required: true,

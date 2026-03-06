@@ -22,6 +22,8 @@ export const IN: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours after a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period; frequency may be reduced to every 14 days when the entire site is temporarily stabilized or runoff is unlikely due to winter conditions",
     qualificationRequired: "Inspections must be conducted by a qualified inspector who is knowledgeable about the permit requirements and BMP implementation; Indiana does not mandate a specific state-issued certification, but IDEM recommends Certified Inspector of Sediment and Erosion Control (CISEC) or equivalent training",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "IDEM-approved training effectively required; licensed PE/RLS also qualifies; CPESC, CESSWI accepted in conjunction with Indiana-approved training",
   },
   postConstruction: {
     required: true,

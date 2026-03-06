@@ -22,6 +22,8 @@ export const FL: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
     qualificationRequired: "Stormwater Pollution Prevention Inspector — no specific state certification required, but must be trained and knowledgeable in stormwater BMPs",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "No state-specific mandatory cert; CPESC, CESSWI recognized by FDEP; FDEP-recognized stormwater inspector training accepted; licensed PE/PG qualifies for SWPPP preparation",
   },
   postConstruction: {
     required: true,

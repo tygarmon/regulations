@@ -22,6 +22,8 @@ export const MA: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours after any storm event that produces ≥ 0.5 inches of rainfall in a 24-hour period; if a site has been finally stabilized in part, those areas may be inspected every 14 days; inspections must be documented in writing and retained on-site",
     qualificationRequired: "Inspections must be performed by a person who is knowledgeable in the principles and practice of erosion and sediment control; Massachusetts strongly recommends — but does not mandate in the general permit — certification as a Certified Erosion, Sediment, and Storm Water Inspector (CESSWI) or equivalent; some local conservation commission orders require a certified professional",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "No state-specific cert required; EPA CGP requires 'qualified personnel'; CPESC, CESSWI, CISEC accepted; some local Conservation Commission orders require a certified professional",
   },
   postConstruction: {
     required: true,

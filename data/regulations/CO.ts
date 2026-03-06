@@ -22,6 +22,8 @@ export const CO: StateRegulation = {
   inspections: {
     frequency: "Every 14 days and within 24 hours of precipitation events producing ≥ 0.5 inches (or ≥ 0.1 inches in the semiarid zone)",
     qualificationRequired: "Stormwater Management Plan Inspector (SMPI) — must complete CDPHE-approved training course. Certification must be renewed every 3 years.",
+    rainTrigger: "Within 24 hours of a precipitation event producing ≥ 0.5 inches (≥ 0.1 inches in designated semiarid zones)",
+    acceptedCertifications: "No state-specific cert required; CDPHE requires a trained 'SWMP Administrator'; CPESC, CESSWI accepted; CDPHE-approved training recommended",
   },
   postConstruction: {
     required: true,

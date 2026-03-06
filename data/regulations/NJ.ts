@@ -22,6 +22,8 @@ export const NJ: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours after a storm event producing ≥ 0.25 inches of rainfall. Inspections must be conducted by a qualified individual and documented in writing. Frequency may be reduced for stabilized sites or during periods of little or no land-disturbing activity.",
     qualificationRequired: "New Jersey requires that SWPPP inspections be conducted by a Certified Soil Erosion and Sediment Control Inspector (CSESCI) or a person under the direct supervision of one. The CSESCI credential is administered by the NJ State Soil Conservation Committee. This is a state-specific certification requirement that distinguishes NJ from most other states.",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.25 inches of rainfall (one of the lower thresholds nationally)",
+    acceptedCertifications: "Certified Soil Erosion and Sediment Control Inspector (CSESCI) REQUIRED or direct supervision by one; administered by the NJ State Soil Conservation Committee — state-specific mandatory credential",
   },
   postConstruction: {
     required: true,

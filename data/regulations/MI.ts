@@ -22,6 +22,8 @@ export const MI: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours after any storm event that produces ≥ 0.5 inches of rainfall in a 24-hour period; reduced to every 14 days for areas that have achieved temporary or permanent stabilization; post-storm inspections must document discharge points and BMPs",
     qualificationRequired: "Michigan requires that construction site inspections be performed by a Qualified Operator — defined as a person who has operational responsibility for stormwater discharges at the site and who has completed EGLE's construction stormwater training or equivalent; EGLE offers online training modules; no state professional license is required, but the Michigan SESC Act (Part 91) requires local Soil Erosion and Sedimentation Control (SESC) permits, and local inspectors (often county drain commissioners) enforce SESC separately",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "EGLE-approved training REQUIRED ('Qualified Operator'); CESSWI, CPESC accepted; Michigan Part 91 SESC permit may require separate county-level inspector qualification",
   },
   postConstruction: {
     required: true,

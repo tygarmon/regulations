@@ -22,6 +22,8 @@ export const AK: StateRegulation = {
   inspections: {
     frequency: "At least every 14 calendar days and within 24 hours of a precipitation or snowmelt event that results in a discharge from the site; during frozen ground conditions, inspections may be reduced to monthly if the site is fully stabilized",
     qualificationRequired: "A knowledgeable person familiar with the SWPPP must conduct inspections. Alaska does not require a state-specific inspector certification, but the person must understand construction stormwater BMPs. Many operators voluntarily use EPA's Developing Your SWPPP training.",
+    rainTrigger: "Within 24 hours of any precipitation or snowmelt event that results in a discharge from the site (no fixed inch threshold — discharge-based trigger)",
+    acceptedCertifications: "No state-specific cert required; EPA CGP requires 'qualified personnel' knowledgeable in E&SC; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: true,

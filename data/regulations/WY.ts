@@ -22,6 +22,8 @@ export const WY: StateRegulation = {
   inspections: {
     frequency: "At least once every 14 calendar days and within 24 hours of a precipitation or snowmelt event that causes stormwater runoff; during periods of frozen conditions where runoff is not likely, inspection frequency may be reduced to once per month; inspection records must be retained for at least 3 years",
     qualificationRequired: "Inspections must be conducted by a qualified person as defined in the permit — someone knowledgeable in the principles and practice of erosion and sediment control. Wyoming does not have a separate mandatory state inspector certification program; however, WDEQ recommends training through nationally recognized programs such as CPESC (Certified Professional in Erosion and Sediment Control) or equivalent courses. Some local jurisdictions may require specific credentials.",
+    rainTrigger: "Within 24 hours of any precipitation or snowmelt event that causes stormwater runoff from the site (discharge-based trigger)",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified person' knowledgeable in E&SC; CPESC, CESSWI accepted; WDEQ recommends nationally recognized training programs",
   },
   postConstruction: {
     required: true,

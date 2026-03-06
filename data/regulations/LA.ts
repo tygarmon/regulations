@@ -22,6 +22,8 @@ export const LA: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours after a storm event resulting in a discharge from the site; inspection frequency may be reduced to every 14 days for portions of the site that have achieved temporary or final stabilization",
     qualificationRequired: "Inspections must be conducted by a qualified inspector who is knowledgeable in the principles and practice of stormwater pollution prevention; LDEQ does not require a specific state-issued inspector certification for construction stormwater, though Certified Inspector of Sediment and Erosion Control (CISEC) or CESSWI credentials are recognized industry standards",
+    rainTrigger: "Within 24 hours of any storm event resulting in a discharge from the site (discharge-based trigger)",
+    acceptedCertifications: "No state-specific cert required; inspector must have 'sufficient training and experience'; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: true,

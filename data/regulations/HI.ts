@@ -22,6 +22,8 @@ export const HI: StateRegulation = {
   inspections: {
     frequency: "At least every 14 calendar days during active construction and within 24 hours after a rainfall event producing ≥ 0.5 inches; some site classifications may require more frequent inspections",
     qualificationRequired: "Inspections must be conducted by a qualified individual — defined as someone knowledgeable about the SWPPP and BMP implementation; Hawaii does not currently have a state-specific inspector certification program, but CPESC or equivalent professional credential is accepted",
+    rainTrigger: "Within 24 hours of a rainfall event producing ≥ 0.5 inches",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified individual' knowledgeable in E&SC; CPESC, CESSWI accepted",
   },
   postConstruction: {
     required: true,

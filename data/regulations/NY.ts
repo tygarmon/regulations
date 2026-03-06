@@ -22,6 +22,8 @@ export const NY: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours of a storm event producing ≥ 0.5 inches of rainfall (or ≥ 0.25 inches if site is near a 303(d) listed water body)",
     qualificationRequired: "Trained Contractor (TC) for routine inspections; Qualified Inspector (QI) for sites ≥ 5 acres or near sensitive water bodies. QI certification required through NYSDEC-approved training.",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall (≥ 0.25 inches if site drains to a 303(d) impaired water body)",
+    acceptedCertifications: "NYS DEC-approved erosion and sediment control training REQUIRED; CPESC, CESSWI explicitly listed as qualifying credentials in the SPDES CGP",
   },
   postConstruction: {
     required: true,

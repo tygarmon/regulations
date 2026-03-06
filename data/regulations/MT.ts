@@ -22,6 +22,8 @@ export const MT: StateRegulation = {
   inspections: {
     frequency: "At least every 14 days and within 24 hours after any precipitation or snowmelt event that causes or has the potential to cause a stormwater discharge from the site",
     qualificationRequired: "No state-mandated inspector certification program; inspections must be conducted by qualified personnel who are knowledgeable in the principles and practice of erosion and sediment control and who possess the skills to assess conditions at the site and implement corrective measures. MT DEQ recommends but does not require certifications such as CPESC or CESSWI.",
+    rainTrigger: "Within 24 hours of any precipitation or snowmelt event that causes or has the potential to cause a stormwater discharge from the site (discharge-based trigger)",
+    acceptedCertifications: "No state-specific cert required; inspector must be 'qualified personnel' knowledgeable in E&SC principles; CPESC, CESSWI accepted; MT DEQ recommends but does not mandate certification",
   },
   postConstruction: {
     required: true,

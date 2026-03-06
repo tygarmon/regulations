@@ -22,6 +22,8 @@ export const VA: StateRegulation = {
   inspections: {
     frequency: "At least once every 14 calendar days and within 48 hours following any runoff-producing storm event; inspections must be conducted during normal business hours unless a rainfall event occurs outside those hours",
     qualificationRequired: "Inspections must be conducted by or under the oversight of a Responsible Land Disturber (RLD) — a state-issued certification from VDEQ. RLD certification requires completion of a VDEQ-approved training course and passing an exam. The RLD is also responsible for SWPPP implementation.",
+    rainTrigger: "Within 48 hours of any runoff-producing storm event (no fixed inch threshold — discharge-based trigger; 48-hour window differs from most states)",
+    acceptedCertifications: "Qualified Personnel (QP) Certificate from DEQ REQUIRED as of July 1, 2025; Responsible Land Disturber (RLD) is a prerequisite; licensed PE or DEQ Dual Inspector cert also qualifies",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const MD: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours after any storm event producing ≥ 0.5 inches of rainfall; stabilized areas may be inspected every 14 days; local erosion and sediment control inspectors from the county or municipality also conduct compliance inspections throughout the project",
     qualificationRequired: "Maryland requires that SWPPP inspections be conducted by a person with Erosion and Sediment Control certification; Maryland's state certification program is the Erosion and Sediment Control Inspector certification administered by MDE in coordination with local jurisdictions; all inspectors on covered sites are required to be trained",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "Maryland MDE Erosion and Sediment Control Inspector certification REQUIRED (state-specific); licensed PE or CPESC may be accepted in lieu; MDE-approved training is the baseline",
   },
   postConstruction: {
     required: true,

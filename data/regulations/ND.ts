@@ -22,6 +22,8 @@ export const ND: StateRegulation = {
   inspections: {
     frequency: "At least every 7 days and within 24 hours of a precipitation event producing ≥ 0.5 inches of rainfall. During periods of extended frozen ground with no land disturbance, inspection frequency may be reduced. Written inspection reports must be retained as part of the SWPPP documentation.",
     qualificationRequired: "No state-specific certification is required by the NDR10-0000 general permit. Inspectors must be qualified individuals knowledgeable in the design, installation, and maintenance of stormwater BMPs. NDDEQ does not currently administer or require a state-issued inspector credential. Industry certifications such as CPESC (Certified Professional in Erosion and Sediment Control) are recognized as evidence of qualification but are not mandated.",
+    rainTrigger: "Within 24 hours of a precipitation event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified individual' knowledgeable in BMP design, installation, and maintenance; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: true,

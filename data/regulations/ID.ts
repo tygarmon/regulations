@@ -22,6 +22,8 @@ export const ID: StateRegulation = {
   inspections: {
     frequency: "At least every 14 calendar days and within 24 hours after a storm event producing ≥ 0.5 inches of rainfall; inspections must be documented in the SWPPP",
     qualificationRequired: "Inspector must be a member of the permittee's Pollution Prevention Team identified in the SWPPP; no state-specific certification is required, but the inspector must be knowledgeable about the SWPPP and BMPs; CPESC or equivalent professional credential is accepted",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "No state-specific cert required; EPA CGP requires inspector to be a 'qualified person'; CPESC, CESSWI, CISEC accepted",
   },
   postConstruction: {
     required: false,

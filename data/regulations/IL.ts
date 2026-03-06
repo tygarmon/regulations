@@ -22,6 +22,8 @@ export const IL: StateRegulation = {
   inspections: {
     frequency: "At least every 7 calendar days and within 24 hours after a storm event producing ≥ 0.5 inches of rainfall over a 24-hour period; inspections must be documented on forms that are retained on-site and available to IEPA",
     qualificationRequired: "Inspections must be performed by a 'Qualified Inspector' — defined as an individual who has completed an approved stormwater inspector training program; Illinois does not have a mandatory state-specific certification but recommends CISEC (Certified Inspector of Sediment and Erosion Control) or CPESC; some MS4 jurisdictions in the Chicago area require certified inspectors",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "IEPA-approved training OR CPESC OR licensed PE required; state-approved training is the primary pathway; CISEC also accepted",
   },
   postConstruction: {
     required: true,

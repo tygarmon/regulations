@@ -22,6 +22,8 @@ export const AL: StateRegulation = {
   inspections: {
     frequency: "At least every 14 calendar days and within 24 hours of a storm event that produces 0.5 inches or more of rainfall at the site",
     qualificationRequired: "Inspections must be performed by a qualified person with construction stormwater knowledge; Alabama does not have a state-specific inspector certification program, but the inspector must be familiar with BMPs and the SWPPP",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "No state-specific cert required; CPESC, CESSWI, CISEC accepted as evidence of qualification",
   },
   postConstruction: {
     required: true,

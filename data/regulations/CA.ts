@@ -22,6 +22,8 @@ export const CA: StateRegulation = {
   inspections: {
     frequency: "Risk Level 1: Visual inspections every 24 hours during active rain. Risk Level 2–3: Rain Event Action Plans required; inspections during and after qualifying storms",
     qualificationRequired: "Qualified SWPPP Practitioner (QSP) for Risk Level 2 and 3 sites; Qualified SWPPP Developer (QSD) must prepare the SWPPP",
+    rainTrigger: "Qualifying storm event (QSE) ≥ 0.5 inches: pre-storm inspection required before predicted QSE, during-storm, and within 48 hours after QSE ends; Risk Level 2/3 require Rain Event Action Plans",
+    acceptedCertifications: "Qualified SWPPP Practitioner (QSP) REQUIRED for all site inspections; Qualified SWPPP Developer (QSD) required for SWPPP preparation — both are mandatory state credentials (CASQA-administered)",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const PA: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours of a precipitation event that results in a discharge from the earth disturbance area. Inspections must be documented on DEP-approved inspection report forms.",
     qualificationRequired: "Inspections must be performed by an 'Responsible Person for Erosion and Sedimentation Compliance' — Pennsylvania requires that at least one person responsible for compliance hold a valid Responsible Land Disturber (RLD) certificate issued by the County Conservation District or PA DEP. The RLD must be trained and tested on Pennsylvania's E&S requirements. This is a state-specific certification; training and testing are administered through the PA State Conservation Commission.",
+    rainTrigger: "Within 24 hours of any precipitation event that results in a discharge from the earth disturbance area (discharge-based trigger; no fixed inch threshold)",
+    acceptedCertifications: "DEP Clean Water Academy Qualified Site Inspector training REQUIRED every 2 years; OR active CPESC or CESSWI certification; PA-specific training is the mandatory baseline",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const AR: StateRegulation = {
   inspections: {
     frequency: "At least every 14 calendar days and within 24 hours of a precipitation event that produces 0.5 inches or more of rain at the site",
     qualificationRequired: "A knowledgeable employee or agent of the permittee must conduct inspections; Arkansas does not currently require a state-specific inspector certification. The inspector must be familiar with the SWPPP and the BMPs implemented at the site.",
+    rainTrigger: "Within 24 hours of a precipitation event producing ≥ 0.5 inches of rainfall",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified person'; CPESC, CESSWI accepted",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const NC: StateRegulation = {
   inspections: {
     frequency: "At least every 7 calendar days and within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period. After final stabilization of an area, inspection frequency may be reduced. Inspections must be documented using NCDEQ-approved forms and records retained for at least 3 years.",
     qualificationRequired: "North Carolina requires that E&SC inspections be conducted by a person holding a valid NC Erosion and Sediment Control (E&SC) Program Level I, Level II, or Level III certificate, or by a licensed Professional Engineer or Registered Landscape Architect. The E&SC certification program is administered by NCDEQ DEMLR. Level II certification is required for projects ≥ 1 acre in most cases. This is a state-specific mandatory certification that distinguishes NC from many other states.",
+    rainTrigger: "Within 24 hours of a storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "NC E&SC Program Level II certificate (or higher) REQUIRED; administered by NCDEQ DEMLR; CPESC satisfies the requirement; licensed PE or Registered Landscape Architect also qualifies",
   },
   postConstruction: {
     required: true,

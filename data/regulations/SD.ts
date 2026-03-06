@@ -22,6 +22,8 @@ export const SD: StateRegulation = {
   inspections: {
     frequency: "At least once every 14 calendar days during active construction, and within 24 hours after any storm event producing ≥ 0.5 inches of rainfall in a 24-hour period; during periods of inactivity (no land disturbance), inspections may be performed at least once per month",
     qualificationRequired: "No specific state certification is mandated by the SDR10 permit; inspections must be performed by a 'qualified inspector' who is knowledgeable in the principles of stormwater pollution prevention; DANR recommends training consistent with programs such as CPESC, but does not require a specific license or credential",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of rainfall in a 24-hour period",
+    acceptedCertifications: "No state-specific cert required; inspector must be a 'qualified inspector' knowledgeable in stormwater pollution prevention; CPESC, CESSWI accepted",
   },
   postConstruction: {
     required: true,

@@ -22,6 +22,8 @@ export const NV: StateRegulation = {
   inspections: {
     frequency: "At least every 14 days and within 24 hours after any precipitation event (including thunderstorms and monsoon events) that results in a discharge from the site. Given Nevada's arid climate, sites may experience long dry periods between rain events; inspections must still occur every 14 days regardless of precipitation. During the monsoon season (typically July–September in southern Nevada), increased vigilance is required due to the potential for intense, short-duration storm events.",
     qualificationRequired: "No state-mandated inspector certification program; inspections must be performed by qualified personnel who are knowledgeable in the principles and practice of erosion and sediment control and who can assess site conditions and implement corrective action. NDEP does not require formal certification, but recommends that inspectors be familiar with arid-region stormwater BMPs and desert construction practices, which differ substantially from humid-climate approaches.",
+    rainTrigger: "Within 24 hours of any precipitation event (including monsoon events) that results in a discharge from the site (discharge-based trigger; no fixed inch threshold)",
+    acceptedCertifications: "No mandatory state-specific cert; CISEC, CPESC strongly preferred; NDEP-approved training required; inspector must understand arid-region and monsoon-season BMP requirements",
   },
   postConstruction: {
     required: true,

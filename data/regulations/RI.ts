@@ -22,6 +22,8 @@ export const RI: StateRegulation = {
   inspections: {
     frequency: "Every 7 days and within 24 hours of a storm event that results in a discharge from the site. During extended dry periods when there is no discharge potential, inspection frequency may be reduced at the operator's discretion with adequate justification documented in the SWPPP.",
     qualificationRequired: "No mandatory state-specific inspector certification under RIR100000; inspections must be performed by a 'qualified person' with appropriate training and knowledge of the SWPPP and BMP implementation. Rhode Island does not administer a state stormwater inspector certification program; CPESC (Certified Professional in Erosion and Sediment Control) or equivalent credentials are commonly used by practitioners. Inspection reports must document the inspector's name and qualifications.",
+    rainTrigger: "Within 24 hours of any storm event that results in a discharge from the site (discharge-based trigger)",
+    acceptedCertifications: "No state-specific mandatory cert; inspector must be a 'qualified person' with appropriate training; CPESC, CESSWI accepted",
   },
   postConstruction: {
     required: true,

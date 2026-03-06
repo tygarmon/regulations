@@ -22,6 +22,8 @@ export const TN: StateRegulation = {
   inspections: {
     frequency: "At least once every 14 calendar days during active construction and within 24 hours after any storm event producing ≥ 0.5 inches of precipitation; inspections must document BMP conditions, discharges, and corrective actions; during periods of extended inactivity, at least monthly inspections are required",
     qualificationRequired: "Inspector must be a 'qualified personnel' with training in construction stormwater management principles; Tennessee does not require a specific state license for construction site inspectors under TNR100000, but TDEC recommends certifications such as CPESC or completion of a recognized stormwater training program; municipalities under Phase II MS4 permits may require additional inspector qualifications under local ordinances",
+    rainTrigger: "Within 24 hours of any storm event producing ≥ 0.5 inches of precipitation",
+    acceptedCertifications: "No state-specific mandatory cert; inspector must be 'qualified personnel'; CPESC, CESSWI accepted; municipalities under Phase II MS4 permits may impose additional local requirements",
   },
   postConstruction: {
     required: true,
