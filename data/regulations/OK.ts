@@ -36,7 +36,7 @@ export const OK: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://deq.ok.gov/",
     permitApplicationUrl: "https://deq.ok.gov/divisions/water-quality/stormwater/stormwater-construction/",
-    regulationDocUrl: "https://deq.ok.gov/wp-content/uploads/Water-Quality-Division/stormwater/okr10-general-permit.pdf",
+    regulationDocUrl: "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
   },
   lastVerified: "2025-01",
   notes: "Oklahoma administers its own NPDES-equivalent program called OPDES (Oklahoma Pollutant Discharge Elimination System) under state authority (27A O.S. § 2-6-201). The OKR10 permit number has evolved over reissuances; the current permit is sometimes referenced as OKR10-0000. Oklahoma's program closely mirrors the federal CGP structure but uses OPDES nomenclature. The state requires a Notice of Termination (NOT) after final stabilization. Projects in the Lake Thunderbird or Lake Hefner watersheds or near Sensitive Public Water Supplies face additional BMP requirements.",

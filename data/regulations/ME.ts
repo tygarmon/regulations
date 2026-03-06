@@ -35,8 +35,8 @@ export const ME: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://www.maine.gov/dep/",
-    permitApplicationUrl: "https://www.maine.gov/dep/land/stormwater/constructionstormwater.html",
-    regulationDocUrl: "https://www.maine.gov/dep/land/stormwater/constructionstormwater.html",
+    permitApplicationUrl: "https://www.maine.gov/dep/land/stormwater/construction.html",
+    regulationDocUrl: "https://www.maine.gov/dep/land/stormwater/construction.html",
   },
   lastVerified: "2025-01",
   notes: "Maine is a delegated NPDES state. Notably, Maine has a parallel state Stormwater Management permit program under 38 M.R.S. §420-D that applies post-construction and may require a separate Tier 1, 2, or 3 permit depending on project size and receiving water classification — this is distinct from and in addition to the construction general permit NOI. Sites near lakes, rivers, or coastal waters classified as Tier 3 (Outstanding Natural Resources Waters) face the most stringent requirements. Maine's shoreland zoning laws may also impose additional setback and disturbance restrictions.",

@@ -35,8 +35,8 @@ export const IL: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://epa.illinois.gov/",
-    permitApplicationUrl: "https://epa.illinois.gov/topics/water-quality/stormwater/construction.html",
-    regulationDocUrl: "https://epa.illinois.gov/topics/water-quality/stormwater/construction.html",
+    permitApplicationUrl: "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+    regulationDocUrl: "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
   },
   lastVerified: "2025-01",
   notes: "Illinois has a notably higher permit fee structure compared to most Midwestern states and requires more frequent inspections (every 7 days vs. the common 14-day cycle). The ILR10 permit is one of the most detailed state construction stormwater general permits in the Midwest. Illinois overlaps significantly with local MS4 stormwater requirements — particularly in Cook, DuPage, Lake, Kane, McHenry, and Will counties in the Chicago metro, where local floodplain and stormwater ordinances from municipalities and the Metropolitan Water Reclamation District of Greater Chicago (MWRDGC) apply in addition to the state NPDES permit. The Illinois Urban Manual (IUM) is the primary BMP reference document for construction and post-construction stormwater management. Permit ILR10 was most recently reissued in 2020.",

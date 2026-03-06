@@ -36,8 +36,9 @@ export const NC: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://deq.nc.gov/",
     permitApplicationUrl: "https://deq.nc.gov/about/divisions/energy-mineral-land-resources/erosion-stormwater-control",
-    regulationDocUrl: "https://deq.nc.gov/about/divisions/energy-mineral-land-resources/npdes-program-information/construction-stormwater",
+    regulationDocUrl: "https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/stormwater/stormwater-program/npdes-construction-program",
   },
+  permitExpires: "2029-03-31",
   lastVerified: "2025-01",
   notes: "North Carolina administers one of the most robust state construction stormwater programs in the Southeast, driven by the 1973 Sedimentation Pollution Control Act — one of the earliest state erosion control laws in the US. The dual-track SPCA/NPDES system means every major construction project must navigate two separate approval processes. Approximately 60 counties and municipalities operate NCDEQ-delegated local E&SC programs with their own review staff and may have more stringent requirements. The mandatory state E&SC inspector certification (Level I/II/III) is a significant distinguishing feature. NC also maintains a robust list of sensitive watershed overlays (WS-I through WS-IV, ORW, SA, Tr) that trigger more stringent requirements for both construction and post-construction phases.",
 };

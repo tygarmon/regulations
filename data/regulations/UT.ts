@@ -35,8 +35,8 @@ export const UT: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://deq.utah.gov/",
-    permitApplicationUrl: "https://deq.utah.gov/water-quality/updes-stormwater-construction-activities",
-    regulationDocUrl: "https://deq.utah.gov/water-quality/updes-stormwater-construction-activities",
+    permitApplicationUrl: "https://deq.utah.gov/water-quality/general-construction-storm-water-updes-permits",
+    regulationDocUrl: "https://deq.utah.gov/water-quality/general-construction-storm-water-updes-permits",
   },
   lastVerified: "2026-03",
   notes: "Utah operates its own state UPDES (Utah Pollutant Discharge Elimination System) program, which is the state equivalent of the federal NPDES program. Utah's general permit is numbered UTR300000 (not UTR100000 as some sources suggest). The tiered permit fee structure based on disturbed acreage is a notable feature. Utah's arid climate creates unique challenges: vegetative stabilization may be difficult to achieve, and UDEQ provides guidance on non-vegetative final stabilization alternatives appropriate for the Great Basin and desert regions. Many construction projects in Utah encounter issues with dust control that intersect with stormwater SWPPP requirements. The Utah Environmental Portal (UEP) is the state's centralized permitting system. Projects near Great Salt Lake, Utah Lake, or sensitive wetlands may face heightened scrutiny. Utah's MS4 program is administered primarily through Salt Lake City, Salt Lake County, and other urbanized areas along the Wasatch Front.",

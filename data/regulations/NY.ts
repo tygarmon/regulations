@@ -36,9 +36,9 @@ export const NY: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://dec.ny.gov/",
     permitApplicationUrl: "https://extapps.dec.ny.gov/cfmx/extapps/edmr/fac_detail.cfm",
-    regulationDocUrl: "https://dec.ny.gov/permits/50285.html",
+    regulationDocUrl: "https://dec.ny.gov/sites/default/files/2025-01/permit_swdischargesfromconst.pdf",
   },
   lastVerified: "2026-03",
-  permitExpires: "2030-01-29", // GP-0-25-001 effective Jan 29 2025, 5-year term
+  permitExpires: "2030-01-28", // GP-0-25-001 effective Jan 29 2025, 5-year term
   notes: "New York's SPDES permit is state-specific (not NPDES) but federally equivalent. GP-0-25-001 took effect January 29, 2025, replacing GP-0-20-001. Key changes under the new permit: electronic eNOI submission via eDEC is now mandatory (paper no longer accepted); NYSDEC issues a Letter of Authorization (LOA) specifying the authorized construction start date; lower disturbance thresholds apply within the NYC East of Hudson watershed (≥ 5,000 sq ft) and within NYC municipal boundaries (≥ 20,000 sq ft). The $2,250 flat fee is among the highest in the country. NYC and surrounding counties may have additional local stormwater requirements. Operators who had coverage under GP-0-20-001 must obtain new authorization under GP-0-25-001 — coverage does not automatically transfer.",
 };

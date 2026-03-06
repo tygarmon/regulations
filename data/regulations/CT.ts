@@ -36,7 +36,7 @@ export const CT: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://portal.ct.gov/DEEP",
     permitApplicationUrl: "https://portal.ct.gov/DEEP/Water/Stormwater/Stormwater-General-Permits",
-    regulationDocUrl: "https://portal.ct.gov/DEEP/Water/Stormwater/General-Permit-for-Construction-Activities",
+    regulationDocUrl: "https://portal.ct.gov/deep/water-regulating-and-discharges/stormwater/construction-stormwater-gp",
   },
   lastVerified: "2025-01",
   notes: "Connecticut has several notable quirks: (1) The 7-day inspection frequency is more stringent than the 14-day federal CGP default. (2) SWPPP preparation requires a CT-licensed PE, land surveyor, or SESC-certified professional for larger sites — the only state among these five with a professional credentialing requirement for SWPPP authorship. (3) The permit covers both stormwater AND dewatering wastewaters under a single registration, which simplifies compliance for sites requiring groundwater management. (4) The registration fee of $625 is relatively high. (5) Connecticut's proximity to Long Island Sound drives strict water quality goals under the Long Island Sound TMDL program.",

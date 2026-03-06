@@ -35,8 +35,8 @@ export const AK: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://dec.alaska.gov/",
-    permitApplicationUrl: "https://dec.alaska.gov/water/wastewater/stormwater/construction/",
-    regulationDocUrl: "https://dec.alaska.gov/water/wastewater/stormwater/construction/",
+    permitApplicationUrl: "https://dec.alaska.gov/water/wastewater/stormwater/permits-approvals/construction/",
+    regulationDocUrl: "https://dec.alaska.gov/water/wastewater/stormwater/permits-approvals/construction/",
   },
   lastVerified: "2025-01",
   permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027

@@ -36,7 +36,7 @@ export const MA: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection",
     permitApplicationUrl: "https://www.mass.gov/guides/stormwater-from-construction-activity",
-    regulationDocUrl: "https://www.mass.gov/doc/npdes-general-permit-for-stormwater-discharges-from-construction-activities/download",
+    regulationDocUrl: "https://www.epa.gov/npdes/2022-construction-general-permit-cgp",
   },
   lastVerified: "2025-01",
   permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027

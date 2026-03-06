@@ -35,8 +35,8 @@ export const MO: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://dnr.mo.gov/",
-    permitApplicationUrl: "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/land-disturbance-stormwater-permit",
-    regulationDocUrl: "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/land-disturbance-stormwater-permit",
+    permitApplicationUrl: "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+    regulationDocUrl: "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
   },
   lastVerified: "2026-03",
   notes: "Missouri's requirement for a CESSI-certified inspector is a notable state-specific quirk — one of a minority of states mandating formal inspector credentialing. The myMOEnvironment online portal (my.moenv.org) consolidated multiple prior legacy systems. Missouri also regulates land disturbance under its state Surface Water Protection Law (Chapter 644 RSMo) in parallel with the federal NPDES program, meaning the state Land Disturbance Permit (LDP) and the NPDES general permit are issued together as a combined authorization. Projects near Outstanding State Resource Waters (OSRWs) face additional anti-degradation requirements.",

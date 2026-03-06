@@ -36,7 +36,7 @@ export const TX: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.tceq.texas.gov/",
     permitApplicationUrl: "https://www.tceq.texas.gov/permitting/stormwater/construction",
-    regulationDocUrl: "https://www.tceq.texas.gov/assets/public/permitting/stormwater/txr150000.pdf",
+    regulationDocUrl: "https://www.tceq.texas.gov/downloads/permitting/stormwater/general/construction/2023-cgp-txr150000.pdf",
   },
   lastVerified: "2025-01",
   notes: "Texas operates one of the most active stormwater construction permit programs in the country. Projects near impaired water bodies or Edwards Aquifer zones may have additional requirements.",

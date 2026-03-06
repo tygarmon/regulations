@@ -36,7 +36,7 @@ export const IN: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.in.gov/idem/",
     permitApplicationUrl: "https://www.in.gov/idem/stormwater/construction-stormwater/",
-    regulationDocUrl: "https://www.in.gov/idem/stormwater/files/sw-rule5-permit.pdf",
+    regulationDocUrl: "https://www.in.gov/idem/stormwater/construction-land-disturbance-permitting/",
   },
   lastVerified: "2025-01",
   notes: "Indiana's construction stormwater program is commonly called 'Rule 5' after 327 IAC 15-5. IDEM issues a state general permit (INR100000) rather than delegating to counties. Operators of sites ≥ 5 acres must also submit a Notice of Termination (NOT) when construction is complete and final stabilization is achieved. Sites < 1 acre that are part of a common plan of development still need coverage. IDEM publishes a Land Quality Rule 5 Technical Guidance Manual that is widely used in practice.",

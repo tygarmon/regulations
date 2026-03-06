@@ -36,7 +36,7 @@ export const PA: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.dep.pa.gov/",
     permitApplicationUrl: "https://www.dep.pa.gov/Business/Water/CleanWater/StormwaterMgmt/ConstructionActivities/Pages/default.aspx",
-    regulationDocUrl: "https://www.dep.pa.gov/Business/Water/CleanWater/StormwaterMgmt/ConstructionActivities/Pages/Chapter-102-Regulations.aspx",
+    regulationDocUrl: "https://www.pa.gov/agencies/dep/programs-and-services/water/clean-water/stormwater-management/construction-stormwater",
   },
   lastVerified: "2025-01",
   notes: "Pennsylvania has one of the most complex construction stormwater programs in the nation, governed by Chapter 102 (Erosion and Sediment Control) and Chapter 93 (Water Quality Standards). A key quirk is that the earth disturbance threshold for E&S plan requirements starts at 5,000 sq ft — well below the federal 1-acre NPDES threshold — making Pennsylvania's program broader than most states. Projects in HQ/EV watersheds cannot use the PAG-02 general permit and must obtain an individual NPDES permit. County Conservation Districts serve as the primary front-line review and enforcement body under a delegated authority arrangement with PA DEP. The Responsible Land Disturber (RLD) certification is a notable Pennsylvania-specific requirement with no direct equivalent in most other states.",

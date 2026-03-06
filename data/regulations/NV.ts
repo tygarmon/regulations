@@ -35,8 +35,8 @@ export const NV: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://ndep.nv.gov/",
-    permitApplicationUrl: "https://ndep.nv.gov/water/stormwater/construction-stormwater",
-    regulationDocUrl: "https://ndep.nv.gov/water/stormwater/construction-stormwater",
+    permitApplicationUrl: "https://ndep.nv.gov/water/water-pollution-control/permitting/stormwater-discharge-permits/construction-sites-greater-than-1-acre",
+    regulationDocUrl: "https://ndep.nv.gov/water/water-pollution-control/permitting/stormwater-discharge-permits/construction-sites-greater-than-1-acre",
   },
   lastVerified: "2026-03",
   notes: "Nevada's 30-day NOI lead time is among the longest in the country and is a critical planning consideration for contractors. Nevada uses 'NPDES' branding (not a state-specific acronym) reflecting its delegated authority. The state's extreme arid climate creates unique challenges: conventional humid-climate BMPs (silt fences, straw wattles) perform very differently in desert conditions, and NDEP's guidance specifically addresses desert-adapted BMPs. Two very different climate regimes exist within the state — the arid Mojave (Las Vegas) and the semi-arid Great Basin / Sierra Nevada foothills (Reno/Tahoe) — requiring different BMP approaches. The Tahoe Basin carries special requirements under TRPA authority, including stringent turbidity standards that are among the tightest in the nation. Projects in Clark County should also reference the Southern Nevada Regional Plan for stormwater management.",

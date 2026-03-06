@@ -35,8 +35,8 @@ export const SC: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://des.sc.gov/",
-    permitApplicationUrl: "https://des.sc.gov/bureaus-divisions/water/stormwater/construction-stormwater",
-    regulationDocUrl: "https://des.sc.gov/bureaus-divisions/water/stormwater/construction-stormwater",
+    permitApplicationUrl: "https://des.sc.gov/programs/bureau-water/stormwater/stormwater-construction-activities",
+    regulationDocUrl: "https://des.sc.gov/programs/bureau-water/stormwater/stormwater-construction-activities",
   },
   lastVerified: "2026-03",
   notes: "South Carolina's stormwater construction permit program was administered by SCDHEC until July 1, 2023, when the South Carolina Department of Environmental Services (SCDES) was created as a standalone agency, separating environmental regulatory functions from SCDHEC. The permit number SCR100000 and program requirements carried over, but agency references must reflect the new SCDES branding. The state also requires compliance with the South Carolina Stormwater Management and Sediment Reduction Act (S.C. Code Ann. § 48-14-10 et seq.) and associated regulations (R.72-300 series). Local governments may impose additional erosion and sediment control requirements. Sites near Outstanding Resource Waters or Trout Waters are subject to enhanced standards. The myDESC portal is the primary online interface for NOI submission and permit management.",

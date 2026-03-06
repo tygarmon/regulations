@@ -35,8 +35,8 @@ export const NM: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://www.env.nm.gov/",
-    permitApplicationUrl: "https://www.env.nm.gov/water-quality/npdes/construction/",
-    regulationDocUrl: "https://www.env.nm.gov/water-quality/npdes/construction/",
+    permitApplicationUrl: "https://www.epa.gov/npdes/2022-construction-general-permit-cgp",
+    regulationDocUrl: "https://www.epa.gov/npdes/2022-construction-general-permit-cgp",
   },
   lastVerified: "2025-01",
   permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027

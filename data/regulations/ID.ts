@@ -35,8 +35,8 @@ export const ID: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://www.deq.idaho.gov/",
-    permitApplicationUrl: "https://www.deq.idaho.gov/water-quality/stormwater/construction-stormwater/",
-    regulationDocUrl: "https://www.deq.idaho.gov/water-quality/stormwater/construction-stormwater/",
+    permitApplicationUrl: "https://www.deq.idaho.gov/permits/water-quality-permits-certifications/stormwater-permits/",
+    regulationDocUrl: "https://www.deq.idaho.gov/permits/water-quality-permits-certifications/stormwater-permits/",
   },
   lastVerified: "2025-01",
   permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027

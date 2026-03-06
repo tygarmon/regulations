@@ -36,7 +36,7 @@ export const NJ: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.nj.gov/dep/",
     permitApplicationUrl: "https://www.nj.gov/dep/stormwater/construction_gpermit.htm",
-    regulationDocUrl: "https://www.nj.gov/dep/stormwater/bmp_manual2.htm",
+    regulationDocUrl: "https://dep.nj.gov/njpdes-stormwater/industrial-stormwater-program/general-permits/5g3/",
   },
   lastVerified: "2025-01",
   notes: "New Jersey has a notably complex construction stormwater framework driven by both the NJPDES general permit (NJG0088323) and the state's Soil Erosion and Sediment Control (SESC) Act (N.J.S.A. 4:24-39 et seq.). Both a SWPPP and an approved SESC plan are required, and SESC plan approval must come from one of New Jersey's 15 County Soil Conservation Districts. The CSESCI inspector certification is a state-specific requirement rarely found elsewhere. The 2020 stormwater management rule revisions (effective March 2021 for most projects) significantly expanded post-construction green infrastructure requirements, making NJ one of the most demanding states for post-construction compliance. Projects in Highlands or Pinelands regions face additional land use and environmental review.",

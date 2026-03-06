@@ -35,8 +35,8 @@ export const WY: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://deq.wyoming.gov/",
-    permitApplicationUrl: "https://deq.wyoming.gov/water-quality/stormwater/construction-stormwater/",
-    regulationDocUrl: "https://deq.wyoming.gov/water-quality/stormwater/construction-stormwater/",
+    permitApplicationUrl: "https://www.epa.gov/npdes/2022-construction-general-permit-cgp",
+    regulationDocUrl: "https://www.epa.gov/npdes/2022-construction-general-permit-cgp",
   },
   lastVerified: "2025-01",
   permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027

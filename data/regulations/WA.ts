@@ -36,7 +36,7 @@ export const WA: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://ecology.wa.gov/",
     permitApplicationUrl: "https://ecology.wa.gov/water-shorelines/water-quality/permits/paris",
-    regulationDocUrl: "https://ecology.wa.gov/regulations-permits/permits-certifications/permits-licenses-authorizations/npdes-stormwater-permits/construction-stormwater-general-permit",
+    regulationDocUrl: "https://www.ecology.wa.gov/regulations-permits/permits-certifications/stormwater-general-permits/construction-stormwater-permit",
   },
   lastVerified: "2026-03",
   permitExpires: "2030-12-31", // 2026 CSGP effective Jan 1 2026 through Dec 31 2030

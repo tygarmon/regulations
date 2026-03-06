@@ -35,8 +35,8 @@ export const GA: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://epd.georgia.gov/",
-    permitApplicationUrl: "https://epd.georgia.gov/watershed-protection-branch/npdes-stormwater/construction-stormwater-program",
-    regulationDocUrl: "https://epd.georgia.gov/watershed-protection-branch/npdes-stormwater/construction-stormwater-program",
+    permitApplicationUrl: "https://epd.georgia.gov/forms-permits/watershed-protection-branch-forms-permits/storm-water-forms/npdes-construction",
+    regulationDocUrl: "https://epd.georgia.gov/forms-permits/watershed-protection-branch-forms-permits/storm-water-forms/npdes-construction",
   },
   lastVerified: "2025-01",
   notes: "Georgia's program is distinctive in its dual-permit system: the federal NPDES permit (GAR100001 from EPD) works alongside the state Erosion and Sedimentation Act permit issued by local issuing authorities (LIAs) such as counties and cities. Both permits are required for most construction sites ≥ 1 acre. Georgia also has one of the few state programs requiring specific GSWCC certification for plan designers and inspectors. The Georgia Soil and Water Conservation Commission (GSWCC) administers the certification program. All land-disturbing activity requires an approved Erosion, Sedimentation and Pollution Control Plan before work begins.",

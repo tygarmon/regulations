@@ -36,7 +36,7 @@ export const AR: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.adeq.state.ar.us/",
     permitApplicationUrl: "https://www.adeq.state.ar.us/water/branch_permits/stormwater/construction.aspx",
-    regulationDocUrl: "https://www.adeq.state.ar.us/water/branch_permits/stormwater/pdfs/ARR150000permit.pdf",
+    regulationDocUrl: "https://www.adeq.state.ar.us/water/permits/npdes/stormwater/",
   },
   lastVerified: "2025-01",
   notes: "Arkansas's 7-day NOI lead time is shorter than many states. The agency was reorganized in 2019 under the Arkansas Department of Energy and Environment, but DEQ continues to administer water quality programs. The agency's website may still reflect the legacy ADEQ (Arkansas Department of Environmental Quality) branding. Sites within the Arkansas River Valley or Ozark/Ouachita mountain regions with high erosion potential should pay special attention to SWPPP BMP selection. The $0 fee is a significant advantage for small operators.",

@@ -36,8 +36,9 @@ export const OH: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://epa.ohio.gov/",
     permitApplicationUrl: "https://epa.ohio.gov/divisions-and-offices/surface-water/permits/npdes-permits/construction-stormwater",
-    regulationDocUrl: "https://epa.ohio.gov/static/Portals/35/storm_water/OHC000004_Final_Permit.pdf",
+    regulationDocUrl: "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/permits/OHC000006.pdf",
   },
+  permitExpires: "2028-04-22",
   lastVerified: "2025-01",
   notes: "Ohio's general permit (OHC000004) was reissued in 2018 and remains in effect with administrative continuations. The permit requires operators to file a Notice of Termination (NOT) within 30 days after achieving final stabilization. Ohio EPA uses the term 'SWP3' (Storm Water Pollution Prevention Plan) rather than the more common 'SWPPP' abbreviation — both refer to the same document. Projects located in watersheds with TMDL impairments or Outstanding State Waters may face additional conditions. Ohio's eBusiness Center is the preferred submission portal; paper forms require mailing to the Division of Surface Water.",
 };

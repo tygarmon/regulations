@@ -35,8 +35,8 @@ export const MT: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://deq.mt.gov/",
-    permitApplicationUrl: "https://deq.mt.gov/water/permitting/stormwater",
-    regulationDocUrl: "https://deq.mt.gov/water/permitting/stormwater",
+    permitApplicationUrl: "https://deq.mt.gov/water/assistance",
+    regulationDocUrl: "https://deq.mt.gov/water/assistance",
   },
   lastVerified: "2026-03",
   notes: "Montana uses 'MPDES' (Montana Pollutant Discharge Elimination System) rather than 'NPDES' branding for its permits, reflecting its state-delegated authority under the federal Clean Water Act. The state's vast rural geography and significant agricultural and mining activities create unique stormwater dynamics. Construction near streams with active salmonid populations, wildlife corridors, or glacially-fed systems is particularly scrutinized. The 10-day NOI lead time is a concrete, specific requirement distinguishing Montana from states with vaguer 'before construction' language. MT DEQ's Water Protection Bureau handles permit issuance; the Construction Bureau and Local Government Center handle related local ordinance questions.",

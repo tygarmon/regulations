@@ -35,8 +35,8 @@ export const MD: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://mde.maryland.gov/",
-    permitApplicationUrl: "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Pages/construction_permits.aspx",
-    regulationDocUrl: "https://mde.maryland.gov/programs/water/StormwaterManagementProgram/Pages/construction_permits.aspx",
+    permitApplicationUrl: "https://mde.maryland.gov/programs/water/wwp/pages/gp_construction.aspx",
+    regulationDocUrl: "https://mde.maryland.gov/programs/water/wwp/pages/gp_construction.aspx",
   },
   lastVerified: "2025-01",
   notes: "Maryland is unique in that construction stormwater permitting is a dual-layer system: the state issues the NPDES General Permit (No. 12-SW), but local Approving Authorities (counties and municipalities) handle day-to-day Erosion and Sediment Control plan review and inspections under state delegation. Contractors must obtain local ESC plan approval before MDE will issue NPDES coverage. Maryland's ESD-to-the-maximum-extent-practicable post-construction standard is among the most stringent nationally. The Chesapeake Bay watershed context drives particularly rigorous nutrient and sediment controls.",

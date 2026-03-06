@@ -35,8 +35,8 @@ export const ND: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://deq.nd.gov/",
-    permitApplicationUrl: "https://deq.nd.gov/WQ/3_Stormwater_NPDES/1_Construction_Stormwater/",
-    regulationDocUrl: "https://deq.nd.gov/WQ/3_Stormwater_NPDES/1_Construction_Stormwater/",
+    permitApplicationUrl: "https://deq.nd.gov/wq/2_NDPDES_Permits/8_Stormwater/stw.aspx",
+    regulationDocUrl: "https://deq.nd.gov/wq/2_NDPDES_Permits/8_Stormwater/stw.aspx",
   },
   lastVerified: "2025-01",
   notes: "North Dakota received NPDES delegation from EPA and administers the program through NDDEQ's Division of Water Quality. The state's program closely mirrors the EPA Construction General Permit structure. A notable feature of ND's landscape is the prevalence of prairie potholes (isolated wetlands) and ephemeral drainages throughout the state; these features are jurisdictionally complex under federal Section 404 and state law, and construction near them requires careful BMP planning. ND experiences significant freeze-thaw cycles that affect soil stabilization and erosion control — SWPPP seasonal considerations are important. The state has no permit fee for general permit coverage, which is unusual. Oil and gas-related construction (Bakken region) often triggers additional NDDEQ surface disturbance and environmental review requirements beyond the standard construction stormwater permit.",

@@ -35,8 +35,8 @@ export const MS: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://www.mdeq.ms.gov/",
-    permitApplicationUrl: "https://www.mdeq.ms.gov/water/surface-water/stormwater/construction-stormwater/",
-    regulationDocUrl: "https://www.mdeq.ms.gov/water/surface-water/stormwater/construction-stormwater/",
+    permitApplicationUrl: "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/construction-stormwater/",
+    regulationDocUrl: "https://www.mdeq.ms.gov/permits/environmental-permits-division/applications-forms/generalpermits/construction-stormwater/",
   },
   lastVerified: "2026-03",
   notes: "Mississippi does not charge a permit fee for the construction CGP, which is notable among delegated states. The permit number MSR100000 follows the standard EPA pattern for state-issued general permits. Mississippi's program is relatively streamlined — no state inspector certification is required, and the PE stamp is not mandated for SWPPPs. Operators near the Gulf Coast or within the Coastal Zone should also check MDEQ's coastal program requirements. The current general permit was reissued; verify the effective permit version and any recent modifications at mdeq.ms.gov.",

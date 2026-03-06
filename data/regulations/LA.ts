@@ -36,7 +36,7 @@ export const LA: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://deq.louisiana.gov/",
     permitApplicationUrl: "https://deq.louisiana.gov/page/stormwater",
-    regulationDocUrl: "https://deq.louisiana.gov/assets/docs/Water/LAR100000_ConstructionGeneralPermit.pdf",
+    regulationDocUrl: "https://www.deq.louisiana.gov/assets/docs/Permits/LAR100000.pdf",
   },
   lastVerified: "2025-01",
   notes: "Louisiana operates the LPDES (Louisiana Pollutant Discharge Elimination System) program as the state analog to NPDES. The construction general permit is LAR100000. A Notice of Termination (NOT) must be filed when final stabilization is achieved. Louisiana is notably a high-rainfall state with frequent intense storm events, making BMP maintenance and post-storm inspection compliance especially important. Projects in Coastal Zone Management areas require a Louisiana Coastal Use Permit (CUP) from LDNR in addition to the LPDES construction permit. Projects disturbing wetlands may also require a USACE Section 404 permit. LDEQ's Water Permits Division administers the program from Baton Rouge.",

@@ -36,8 +36,9 @@ export const RI: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://dem.ri.gov/",
     permitApplicationUrl: "https://dem.ri.gov/programs/water-resources/water-quality-permits/ripdes-program/ripdes-stormwater-construction",
-    regulationDocUrl: "https://dem.ri.gov/sites/g/files/xkgbur861/files/programs/water/permits/stormwater/RIR100000FinalPermit.pdf",
+    regulationDocUrl: "https://dem.ri.gov/sites/g/files/xkgbur861/files/2025-09/cgp-092625.pdf",
   },
+  permitExpires: "2026-09-26",
   lastVerified: "2025-01",
   notes: "Rhode Island administers its own NPDES-equivalent program called RIPDES (Rhode Island Pollutant Discharge Elimination System) under state authority. As the smallest U.S. state by area, Rhode Island has a high proportion of land area within sensitive watersheds, particularly the Narragansett Bay watershed, making stormwater management a high-priority environmental issue. Projects requiring both a RIPDES construction permit and a CRMC assent must coordinate the two permit processes, which can add time to project timelines. Rhode Island's 2022 update to the Stormwater Design and Installation Standards Manual incorporated updated Low Impact Development (LID) requirements. The state's small size and dense development patterns mean many projects are in regulated MS4 areas with additional local stormwater ordinance requirements.",
 };

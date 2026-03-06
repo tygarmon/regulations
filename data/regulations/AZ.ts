@@ -35,8 +35,8 @@ export const AZ: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://azdeq.gov/",
-    permitApplicationUrl: "https://azdeq.gov/node/193",
-    regulationDocUrl: "https://azdeq.gov/node/193",
+    permitApplicationUrl: "https://azdeq.gov/AZPDES/CGP",
+    regulationDocUrl: "https://azdeq.gov/AZPDES/CGP",
   },
   lastVerified: "2026-03",
   permitExpires: "2030-08-28", // AZG2025-001 — confirmed in prior session

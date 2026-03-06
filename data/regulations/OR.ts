@@ -36,8 +36,9 @@ export const OR: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.oregon.gov/deq/",
     permitApplicationUrl: "https://www.oregon.gov/deq/permits/Pages/stormwater.aspx",
-    regulationDocUrl: "https://www.oregon.gov/deq/FilterDocs/1200C.pdf",
+    regulationDocUrl: "https://www.oregon.gov/deq/wq/Documents/1200CPermit.pdf",
   },
+  permitExpires: "2030-12-14",
   lastVerified: "2025-01",
   notes: "Oregon's 1200-C permit is one of the more prescriptive state construction stormwater programs. The permit distinguishes between wet and dry seasons with different inspection schedules, reflecting Oregon's strongly seasonal precipitation climate. Projects within the Urban Growth Boundary of a regulated MS4 must also comply with local stormwater management ordinances. Oregon requires a Notice of Termination (NOT) be filed after final stabilization. The 1200-C is periodically reissued (most recently updated in 2022). Oregon also administers a separate General Permit (1200-COLS) specifically for construction in the Columbia Slough area of Portland.",
 };

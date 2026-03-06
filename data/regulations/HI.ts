@@ -35,8 +35,8 @@ export const HI: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://health.hawaii.gov/cwb/",
-    permitApplicationUrl: "https://health.hawaii.gov/cwb/site-program/national-pollutant-discharge-elimination-system-npdes/construction-stormwater/",
-    regulationDocUrl: "https://health.hawaii.gov/cwb/site-program/national-pollutant-discharge-elimination-system-npdes/",
+    permitApplicationUrl: "https://health.hawaii.gov/cwb/general-permits/construction-stormwater/",
+    regulationDocUrl: "https://health.hawaii.gov/cwb/general-permits/",
   },
   lastVerified: "2025-01",
   notes: "Hawaii is notable for its stringent environmental standards driven by the fragility of its coral reef ecosystems and groundwater-dependent ecosystems. The state's 'Anti-degradation' policy is strictly enforced. Hawaii requires PE or CPESC sign-off on the SWPPP, which is unusual among states. County ordinances (especially Honolulu, Maui, Hawaii County, and Kauai) layer additional stormwater controls on top of state NPDES requirements. Projects near streams classified as 'waters of the State' require extra care due to cultural and environmental significance. Hawaii also has separate grading permit requirements through county building departments that interact with the NPDES program.",

@@ -36,7 +36,7 @@ export const FL: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://floridadep.gov/",
     permitApplicationUrl: "https://floridadep.gov/water/stormwater",
-    regulationDocUrl: "https://floridadep.gov/water/stormwater/content/generic-permit-stormwater-discharge-large-and-small-construction-activities",
+    regulationDocUrl: "https://floridadep.gov/water/stormwater/content/construction-activity",
   },
   lastVerified: "2025-01",
   notes: "Florida is unique in having a dual-permit system: the FDEP Generic Permit (stormwater) AND the Water Management District ERP (stormwater and flooding/floodplain). Both may apply to the same project. Projects in wetlands face additional scrutiny.",

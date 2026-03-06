@@ -36,7 +36,7 @@ export const AL: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://adem.alabama.gov/",
     permitApplicationUrl: "https://adem.alabama.gov/programs/water/constructionstormwater.cnt",
-    regulationDocUrl: "https://adem.alabama.gov/programs/water/wPDFs/ALR100000Permit.pdf",
+    regulationDocUrl: "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
   },
   lastVerified: "2025-01",
   notes: "Alabama has a $0 permit fee for construction stormwater, which is notable among southeastern states. The NOI must include a signed certification and the SWPPP must reference ADEM-approved BMPs. Sites within sensitive watersheds or near Outstanding Alabama Waters may face enhanced review. ADEM issues permit coverage typically within a few business days of a complete NOI submission.",

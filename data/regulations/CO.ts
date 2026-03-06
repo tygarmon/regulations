@@ -36,7 +36,7 @@ export const CO: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://cdphe.colorado.gov/wq",
     permitApplicationUrl: "https://cdphe.colorado.gov/stormwater-construction-discharges",
-    regulationDocUrl: "https://cdphe.colorado.gov/sites/cdphe/files/AP-COR400000.pdf",
+    regulationDocUrl: "https://cdphe.colorado.gov/cor400000-stormwater-discharge",
   },
   lastVerified: "2025-01",
   notes: "Colorado requires a state-certified SMPI for inspections, making it one of the few states with a mandatory inspector certification program. Altitude and arid conditions affect BMP effectiveness — conventional sediment controls perform differently than in humid climates.",

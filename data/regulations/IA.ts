@@ -10,7 +10,7 @@ export const IA: StateRegulation = {
     name: "NPDES General Permit No. 2 — Stormwater Discharge Associated with Industrial Activity from Construction Activities (Permit IAR100000)",
     threshold: "≥ 1 acre of land disturbance; < 1 acre if part of a larger common plan of development or sale",
     noticePeriod: "NOI must be submitted to IDNR at least 2 business days before commencement of land-disturbing activities; authorization is automatic upon submittal if the NOI is complete",
-    applicationMethod: "Online via Iowa DNR's EQ (Electronic Reporting and Permitting) portal at https://programs.iowadnr.gov/npdespermits/; paper NOI also accepted",
+    applicationMethod: "Online via Iowa DNR's EQ (Electronic Reporting and Permitting) portal at https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information; paper NOI also accepted",
     fee: "No permit application fee for NPDES General Permit No. 2 (construction stormwater); fees may apply for individual NPDES permits",
   },
   swppp: {
@@ -36,7 +36,7 @@ export const IA: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.iowadnr.gov/",
     permitApplicationUrl: "https://www.iowadnr.gov/Environmental-Protection/Water-Quality/NPDES-Permits/Storm-Water",
-    regulationDocUrl: "https://programs.iowadnr.gov/npdespermits/",
+    regulationDocUrl: "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
   },
   lastVerified: "2025-01",
   notes: "Iowa's construction stormwater program operates under NPDES General Permit No. 2, which IDNR reissues periodically (most recently reissued 2021 with updates). Authorization is automatic 2 business days after a complete NOI is filed — there is no waiting period for permit approval from IDNR, which is a notable feature compared to many other states. A Notice of Discontinuation (NOD) must be filed within 30 days of final stabilization. Iowa City and other MS4 communities may impose additional local stormwater requirements beyond the state general permit.",

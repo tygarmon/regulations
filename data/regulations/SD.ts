@@ -35,8 +35,8 @@ export const SD: StateRegulation = {
   },
   officialLinks: {
     agencyUrl: "https://danr.sd.gov/",
-    permitApplicationUrl: "https://danr.sd.gov/environment/waterquality/stormwater/construction.aspx",
-    regulationDocUrl: "https://danr.sd.gov/environment/waterquality/stormwater/construction.aspx",
+    permitApplicationUrl: "https://danr.sd.gov/OfficeOfWater/SurfaceWaterQuality/stormwater/StormWaterConstruction.aspx",
+    regulationDocUrl: "https://danr.sd.gov/OfficeOfWater/SurfaceWaterQuality/stormwater/StormWaterConstruction.aspx",
   },
   lastVerified: "2026-03",
   notes: "South Dakota is a delegated NPDES state and administers its construction stormwater program through the DANR Water Quality Program. The state permit SDR10 mirrors many of the EPA Construction General Permit (CGP) requirements but is issued under South Dakota state authority. South Dakota's program is relatively straightforward with no state-specific inspector certification requirement or PE stamp requirement. The state has a low population and large agricultural land base; construction stormwater issues often intersect with agricultural drainage and tributary water quality concerns, particularly for projects near the Missouri River and Lake Oahe. Operators should also check for local erosion and sediment control ordinances in municipalities such as Sioux Falls and Rapid City, which may have additional requirements.",

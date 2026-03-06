@@ -36,8 +36,9 @@ export const KS: StateRegulation = {
   officialLinks: {
     agencyUrl: "https://www.kdhe.ks.gov/",
     permitApplicationUrl: "https://www.kdhe.ks.gov/1118/Stormwater",
-    regulationDocUrl: "https://www.kdhe.ks.gov/DocumentCenter/View/757/KSR100000",
+    regulationDocUrl: "https://www.kdhe.ks.gov/757/Construction-Stormwater",
   },
+  permitExpires: "2027-07-31",
   lastVerified: "2025-01",
   notes: "Kansas uses a 14-day (rather than 7-day) minimum inspection interval, which is less stringent than many other states and the EPA CGP baseline. KDHE's Bureau of Water, Stormwater Section administers the program. A Notice of Termination (NOT) is required upon achieving final stabilization. Kansas City, KS and other Phase I/II MS4 communities may have additional local stormwater ordinances beyond the state general permit requirements. Kansas is a state-delegated NPDES program and does not use the EPA Construction General Permit.",
 };
