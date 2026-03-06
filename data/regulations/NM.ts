@@ -39,5 +39,6 @@ export const NM: StateRegulation = {
     regulationDocUrl: "https://www.env.nm.gov/water-quality/npdes/construction/",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027
   notes: "New Mexico's construction stormwater program reflects its arid climate: re-vegetation requirements emphasize drought-tolerant native species, and the program acknowledges that conventional re-vegetation timelines may not apply in low-rainfall areas. The 2-day NOI lead time is among the shortest in the country. NMED has a smaller enforcement staff relative to the size of the state, so BMP self-monitoring and documentation are critical. Wind erosion controls (e.g., wind fences, dust suppression) are specifically addressed in NMED guidance due to frequent high-wind events in the state. Projects within 100 feet of an acequia (traditional irrigation ditch) or a jurisdictional water of the US may face additional NMED Surface Water Quality Bureau review.",
 };

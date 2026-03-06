@@ -39,5 +39,6 @@ export const ID: StateRegulation = {
     regulationDocUrl: "https://www.deq.idaho.gov/water-quality/stormwater/construction-stormwater/",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027
   notes: "Idaho is one of the few delegated NPDES states that charges no fee for its construction stormwater general permit, which is notable. The IDG10-000 permit is administered entirely by IDEQ with a relatively streamlined 48-hour NOI lead time. Idaho's permit is similar in structure to the EPA's federal CGP because the state adopted key provisions when it received NPDES delegation. Projects on U.S. Forest Service or BLM lands may require separate federal coordination. Idaho's abundant cold-water fisheries (trout and salmon habitat) make sediment control especially important; violations can trigger ESA consultations. The current permit was reissued in 2021 with a 5-year term.",
 };

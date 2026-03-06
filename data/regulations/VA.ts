@@ -39,5 +39,6 @@ export const VA: StateRegulation = {
     regulationDocUrl: "https://law.lis.virginia.gov/admincode/title9/agency25/chapter880/",
   },
   lastVerified: "2025-01",
+  permitExpires: "2026-06-30", // VAR10 — confirmed in prior session
   notes: "Virginia operates its own state permit program (VPDES) with authority delegated from EPA. The state has a unique dual-layer system: VDEQ issues the statewide general permit (VAR10), but localities with approved Virginia Stormwater Management Programs (VSMPs) — including most cities and counties — administer erosion and sediment control and post-construction requirements locally. Operators must register with both VDEQ (for VAR10 coverage) and the local VSMP authority. The Responsible Land Disturber (RLD) certification is a notable state-specific requirement. Virginia also has a stringent Erosion and Sediment Control (ESC) program under 9VAC25-840 that runs parallel to VPDES requirements.",
 };

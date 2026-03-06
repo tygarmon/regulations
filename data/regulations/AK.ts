@@ -39,5 +39,6 @@ export const AK: StateRegulation = {
     regulationDocUrl: "https://dec.alaska.gov/water/wastewater/stormwater/construction/",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027
   notes: "Alaska administers its own NPDES-equivalent program called APDES (Alaska Pollutant Discharge Elimination System). The 30-day NOI lead time is longer than most states. The 30-day review window reflects DEC's need to coordinate with Alaska Department of Fish and Game on anadromous waterway impacts, which is a major quirk unique to Alaska. Operators working near salmon streams should plan for potential additional permit conditions or requirements from ADF&G under AS 16.05.871.",
 };

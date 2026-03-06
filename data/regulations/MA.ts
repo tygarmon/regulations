@@ -39,5 +39,6 @@ export const MA: StateRegulation = {
     regulationDocUrl: "https://www.mass.gov/doc/npdes-general-permit-for-stormwater-discharges-from-construction-activities/download",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027
   notes: "Massachusetts is unique in that the Wetlands Protection Act (MGL c. 131 §40) creates a parallel permitting track: many construction projects also require an Order of Conditions from the local Conservation Commission if they are within 100 feet of a wetland resource area (200 feet of a perennial stream). The Order of Conditions often contains stormwater conditions that are more stringent than the NPDES construction general permit. Operators must comply with both. Additionally, the Massachusetts Title 5 septic system regulations and the state's Drinking Water Protection regulations may add further stormwater-related restrictions. The eDEP online system is the standard application portal.",
 };

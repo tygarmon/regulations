@@ -39,5 +39,6 @@ export const WA: StateRegulation = {
     regulationDocUrl: "https://ecology.wa.gov/regulations-permits/permits-certifications/permits-licenses-authorizations/npdes-stormwater-permits/construction-stormwater-general-permit",
   },
   lastVerified: "2026-03",
+  permitExpires: "2030-12-31", // 2026 CSGP effective Jan 1 2026 through Dec 31 2030
   notes: "Washington's 2026 CSGP (issued November 19, 2025, effective January 1, 2026) replaced the prior 2021 permit. Key changes: CESCL certification is now required for ALL site inspections regardless of site size; sites ≤ 1 acre must conduct weekly turbidity/transparency and pH sampling; NOI lead time increased to 60 days. Sites in watersheds with low dissolved oxygen impairments may face numeric turbidity effluent limits. Washington's CESCL certification is one of the more stringent state inspector programs in the country. The state is divided into Western and Eastern Washington stormwater regions, each with separate design manuals reflecting vastly different precipitation patterns.",
 };

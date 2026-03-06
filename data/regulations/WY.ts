@@ -39,5 +39,6 @@ export const WY: StateRegulation = {
     regulationDocUrl: "https://deq.wyoming.gov/water-quality/stormwater/construction-stormwater/",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027
   notes: "Wyoming has NPDES authority delegated from EPA. A notable state-specific consideration is Wyoming's significant oil, gas, and mining sector — construction activities associated with energy extraction may be subject to additional WDEQ permits (e.g., Wyoming Pollutant Discharge Elimination System permits for process water) or federal Bureau of Land Management (BLM) requirements when occurring on federal lands, which cover a large portion of the state. Wyoming also has cold-weather and arid conditions that affect BMP selection: frozen ground limits infiltration-based controls, and high-altitude UV exposure can degrade erosion control fabrics more rapidly. The state has relatively few MS4 permittees, so post-construction stormwater requirements are less uniformly applied than in more urbanized states.",
 };

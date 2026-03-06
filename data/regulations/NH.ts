@@ -39,5 +39,6 @@ export const NH: StateRegulation = {
     regulationDocUrl: "https://des.nh.gov/water/wetlands/nhpdes/permits/stormwater.htm",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-02-17", // EPA CGP 2022 — expires Feb 17 2027
   notes: "New Hampshire uniquely administers construction stormwater through two overlapping programs: the federal NPDES-delegated general permit (NHR10) and the state Alteration of Terrain (AOT) permit under RSA 485-A:17. Both may be required for the same project. The AOT permit covers grading near surface waters and wetlands with its own set of standards. Projects near designated prime wetlands or Outstanding Resource Waters face additional review and potential individual permit requirements. NH has adopted the EPA MS4 Phase II program; regulated municipalities must enforce post-construction requirements. The NHDES Stormwater Management and Erosion and Sediment Control Handbook is the primary technical reference.",
 };

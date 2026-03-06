@@ -39,5 +39,6 @@ export const CA: StateRegulation = {
     regulationDocUrl: "https://www.waterboards.ca.gov/water_issues/programs/stormwater/constpermits.html",
   },
   lastVerified: "2025-01",
+  permitExpires: "2027-09-01", // Order 2022-0057-DWQ, effective Sep 2022, 5-year term (estimated)
   notes: "California's three-tier Risk Level system is unique among states and drives significantly different requirements for BMPs, monitoring, and reporting. Risk Level is determined by a rainfall erosivity factor and proximity to water bodies.",
 };

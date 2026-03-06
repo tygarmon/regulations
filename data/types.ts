@@ -39,6 +39,7 @@ export type StateRegulation = {
     regulationDocUrl: string;
   };
   lastVerified: string; // "YYYY-MM" or "pending"
+  permitExpires?: string; // "YYYY-MM-DD" — when current permit expires/is up for reissuance
   notes: string; // State-specific quirks or additional context
 };
 

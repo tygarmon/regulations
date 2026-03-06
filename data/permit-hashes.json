@@ -1,0 +1,3 @@
+{
+  "_comment": "Auto-maintained by scripts/check-permits.ts — do not edit manually. Stores last-seen HTTP ETag/Last-Modified headers for each state's regulationDocUrl so the monthly check can detect when permit documents change."
+}

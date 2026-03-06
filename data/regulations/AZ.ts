@@ -39,5 +39,6 @@ export const AZ: StateRegulation = {
     regulationDocUrl: "https://azdeq.gov/node/193",
   },
   lastVerified: "2026-03",
+  permitExpires: "2030-08-28", // AZG2025-001 — confirmed in prior session
   notes: "Arizona's arid climate means construction sites may go weeks without rain, but the intense monsoon season (July–September) demands fully operational BMPs. ADEQ uses the AZPDES permit numbering system (not NPDES). AZG2025-001 replaced AZG2020-001 (which had replaced AZG2016-001); coverage under prior permits does not automatically transfer — a new NOI must be submitted via the myDEQ portal. The permit expires August 28, 2030. Projects on tribal lands may require coverage under EPA's federal CGP rather than the AZPDES permit.",
 };
